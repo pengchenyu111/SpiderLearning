@@ -44,4 +44,5 @@ def crawler(url):
 
 
 # 抓取入口
+# 抓取博客园首页的文章列表的url和title
 crawler('https://www.cnblogs.com')
