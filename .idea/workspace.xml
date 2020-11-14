@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/NovelSpider/NovelSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/NovelSpider/NovelSpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JokesSpider/JokesSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,47 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BlogSpider/BlogSpider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1345">
-              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NovelSpider/NovelSpider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="133" selection-start-line="4" selection-start-column="133" selection-end-line="4" selection-end-column="133" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CinemaSpider/CinemaSpider.py">
+        <entry file="file://$PROJECT_DIR$/JokesSpider/JokesSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+            <state relative-caret-position="1047">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python/Lib/site-packages/urllib3/request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -74,8 +42,10 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/BlogSpider/BlogSpider.py" />
-        <option value="$PROJECT_DIR$/CinemaSpider/CinemaSpider.py" />
         <option value="$PROJECT_DIR$/NovelSpider/NovelSpider.py" />
+        <option value="$PROJECT_DIR$/CinemaSpider/CinemaSpider.py" />
+        <option value="$PROJECT_DIR$/JokesSpider/JokesSpider.py" />
+        <option value="$PROJECT_DIR$/CinemaSpider/board.txt" />
       </list>
     </option>
   </component>
@@ -100,7 +70,7 @@
             <path>
               <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="CinemaSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="JokesSpider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -124,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.NovelSpider">
+  <component name="RunManager" selected="Python.JokesSpider">
     <configuration name="BlogSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,6 +137,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="JokesSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpiserLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JokesSpider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JokesSpider/JokesSpider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="NovelSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,8 +181,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.NovelSpider" />
+        <item itemvalue="Python.JokesSpider" />
         <item itemvalue="Python.CinemaSpider" />
+        <item itemvalue="Python.NovelSpider" />
         <item itemvalue="Python.BlogSpider" />
       </list>
     </recent_temporary>
@@ -235,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605349409289</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="抓取猫眼电影TOP100——其中with的用法.">
+      <created>1605349692434</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605349692434</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -247,7 +246,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49103585" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49103585" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,7 +304,8 @@
     <MESSAGE value="抓取博客园首页的文章列表的url和title" />
     <MESSAGE value="抓取斗破小说网的小说." />
     <MESSAGE value="抓取猫眼电影TOP100." />
-    <option name="LAST_COMMIT_MESSAGE" value="抓取猫眼电影TOP100." />
+    <MESSAGE value="抓取猫眼电影TOP100——其中with的用法." />
+    <option name="LAST_COMMIT_MESSAGE" value="抓取猫眼电影TOP100——其中with的用法." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-643338342/builtins.py">
@@ -355,17 +355,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CinemaSpider/board.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NovelSpider/NovelSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="133" selection-start-line="4" selection-start-column="133" selection-end-line="4" selection-end-column="133" />
+        <state relative-caret-position="490">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -374,10 +367,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CinemaSpider/CinemaSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        <state relative-caret-position="1440">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CinemaSpider/board.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JokesSpider/jokes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JokesSpider/JokesSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1047">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
