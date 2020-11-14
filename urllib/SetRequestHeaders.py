@@ -16,6 +16,12 @@ dict = {
 # 将表单数据转换为bytes形式
 data = bytes(parse.urlencode(dict), encoding='utf-8')
 # 使用Request类构造
+# url：必选，其余可选
+# data：参数必须是bytes类型，如果要传输的数据类型为字典，则要用parse.urlencode方法进行编码
+# headers：字典类型数据；后期也可以用Request的add_header方法添加
+# origin_req_host：请求方的host名称或IP地址
+# unverifiable：这个请求是否是无法验证的，默认false
+# method：GET、POST、PUT等
 req = request.Request(url=url, data=data, headers=headers, method="POST")
 
 response = request.urlopen(req)
