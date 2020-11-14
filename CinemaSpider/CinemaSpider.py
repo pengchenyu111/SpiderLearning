@@ -46,6 +46,8 @@ def parseOnePage(html):
 
 
 def save(content):
+    # with 语句适用于对资源进行访问的场合
+    # 确保不管使用过程中是否发生异常都会执行必要的“清理”操作，释放资源，比如文件使用后自动关闭、线程中锁的自动获取和释放等
     with open('board.txt', 'a', encoding='utf-8') as f:
         # 将对象转为json字符串，ensure_ascii=False表示返回的值可以包含非ASCLL字符
         f.write(json.dumps(content, ensure_ascii=False) + '\n')
