@@ -35,7 +35,7 @@ def getChapterContent(chapters):
         response = request.urlopen(req)
         if response.status == 200:
             # 写入本地文件
-            f = open('novel-nananwudi/' + chapter['title'] + '.txt', 'a+')
+            f = open('novel-nananwudi/' + chapter['title'] + '.txt', 'a+', encoding='utf-8')
             contents = re.findall('<p>(.*?)</p>', response.read().decode('utf-8'))
             for content in contents:
                 f.write(content + '\n')

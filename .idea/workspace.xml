@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JokesSpider/JokesSpider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +13,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JokesSpider/JokesSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1047">
+            <state relative-caret-position="59">
               <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -234,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605349692434</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="抓取糗事百科的段子（zip函数用法）.">
+      <created>1605361278786</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605361278786</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -246,7 +250,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49103585" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13047808" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,7 +309,8 @@
     <MESSAGE value="抓取斗破小说网的小说." />
     <MESSAGE value="抓取猫眼电影TOP100." />
     <MESSAGE value="抓取猫眼电影TOP100——其中with的用法." />
-    <option name="LAST_COMMIT_MESSAGE" value="抓取猫眼电影TOP100——其中with的用法." />
+    <MESSAGE value="抓取糗事百科的段子（zip函数用法）." />
+    <option name="LAST_COMMIT_MESSAGE" value="抓取糗事百科的段子（zip函数用法）." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-643338342/builtins.py">
@@ -389,7 +394,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JokesSpider/JokesSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1047">
+        <state relative-caret-position="59">
           <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />

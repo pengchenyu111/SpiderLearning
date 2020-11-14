@@ -48,7 +48,7 @@ urls = ['http://www.qiushibaike.com/text/page/{}/'.format(str(i)) for i in range
 for url in urls:
     getJoke(url)
 for joke in jokeLists:
-    f = open('./jokes.txt', 'a+')
+    f = open('./jokes.txt', 'a+', encoding='utf-8')
     try:
         f.write(joke['id'] + '\n')
         f.write(joke['level'] + '\n')
