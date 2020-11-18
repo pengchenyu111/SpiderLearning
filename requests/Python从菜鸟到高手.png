@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <title>提示</title>
+    <style>
+    html{
+      font-family: sans-serif;
+    }
+    html,body,p{
+      padding:0px;
+      margin:0px;
+    }
+    .wrap {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .wrap >p{
+      text-align: center;
+      color:#333333;
+    }
+    .desc{
+      font-size:1rem;
+    }
+    .link {
+        font-size: 0.875rem;
+        padding-top: 30px;
+        word-break: break-all;
+    }
+    </style>
+</head>
+<body>
+  <div class="wrap">
+      <p class="desc">如需浏览，请长按网址复制后使用浏览器访问</p>
+      <p class="link">https://upload-images.jianshu.io/upload_images/13614258-ba7bc15bccab5c63.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240</p>
+  </div>
+</body>
+</html>
+
