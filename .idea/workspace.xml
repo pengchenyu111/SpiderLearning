@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/urllib/UrlHandle/quotedemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urllib/UrlHandle/urlencodedemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urllib/UrlHandle/urljoindemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urllib/UrlHandle/urlparsedemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urllib/UrlHandle/urlsplitdemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urllib/UrlHandle/quotedemo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -53,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urllib/Cookie/cookies.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/urllib/UrlHandle/parse_qs_demo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="32" />
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -143,6 +138,7 @@
         <option value="$PROJECT_DIR$/urllib/UrlHandle/urljoindemo.py" />
         <option value="$PROJECT_DIR$/urllib/UrlHandle/urlencodedemo.py" />
         <option value="$PROJECT_DIR$/urllib/UrlHandle/quotedemo.py" />
+        <option value="$PROJECT_DIR$/urllib/UrlHandle/parse_qs_demo.py" />
       </list>
     </option>
   </component>
@@ -491,19 +487,26 @@
       <option name="project" value="LOCAL" />
       <updated>1605519686839</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="urllib——url的拆分、合并、连接、编解码、参数转换.">
+      <created>1605692594149</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1605692594149</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23103793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23103793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38446215" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38446215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,7 +579,8 @@
     <MESSAGE value="urllib——页面请求." />
     <MESSAGE value="urllib——Cookie获取、设置和加载." />
     <MESSAGE value="urllib——Error." />
-    <option name="LAST_COMMIT_MESSAGE" value="urllib——Error." />
+    <MESSAGE value="urllib——url的拆分、合并、连接、编解码、参数转换." />
+    <option name="LAST_COMMIT_MESSAGE" value="urllib——url的拆分、合并、连接、编解码、参数转换." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-643338342/builtins.py">
@@ -846,6 +850,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urllib/UrlHandle/parse_qs_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
