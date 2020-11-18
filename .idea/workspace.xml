@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requests/basicauth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twisted/helloworld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twisted/imap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twisted/timeclient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twisted/timeserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urllib/Cookie/CookieBasic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requests/Cookie.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requests/basicauth.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -70,28 +65,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-643338342/builtins.py">
+        <entry file="file://$PROJECT_DIR$/requests/RequestDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="5066" column="62" lean-forward="true" selection-start-line="5066" selection-start-column="62" selection-end-line="5066" selection-end-column="62" />
+            <state relative-caret-position="540">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/twisted/imap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3006" />
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requests/uploadfile.py">
+        <entry file="file://$PROJECT_DIR$/twisted/helloworld.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urllib3/FileUpload/upload_file.py">
+        <entry file="file://$PROJECT_DIR$/twisted/timeclient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="16" column="66" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="66" />
+            <state relative-caret-position="564">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twisted/timeserver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BlogSpider/BlogSpider.py" />
         <option value="$PROJECT_DIR$/CinemaSpider/CinemaSpider.py" />
         <option value="$PROJECT_DIR$/CinemaSpider/board.txt" />
         <option value="$PROJECT_DIR$/JokesSpider/JokesSpider.py" />
@@ -159,6 +172,10 @@
         <option value="$PROJECT_DIR$/requests/proxy.py" />
         <option value="$PROJECT_DIR$/requests/timeout.py" />
         <option value="$PROJECT_DIR$/requests/basicauth.py" />
+        <option value="$PROJECT_DIR$/requests/RequestDemo.py" />
+        <option value="$PROJECT_DIR$/twisted/helloworld.py" />
+        <option value="$PROJECT_DIR$/twisted/timeclient.py" />
+        <option value="$PROJECT_DIR$/twisted/timeserver.py" />
       </list>
     </option>
   </component>
@@ -186,23 +203,7 @@
             <path>
               <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="requests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="urllib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="urllib" type="462c0819:PsiDirectoryNode" />
-              <item name="Cookie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="urllib3" type="462c0819:PsiDirectoryNode" />
+              <item name="twisted" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,11 +223,11 @@
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Header" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\requests" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\Timeout" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\FileUpload" />
-      <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\Header" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -241,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.session">
+  <component name="RunManager" selected="Python.helloworld">
     <configuration name="Cookie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,7 +264,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="response" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,11 +272,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twisted" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests/response.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twisted/helloworld.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,11 +350,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.helloworld" />
         <item itemvalue="Python.session" />
         <item itemvalue="Python.Cookie" />
         <item itemvalue="Python.uploadfile" />
         <item itemvalue="Python.upload_server" />
-        <item itemvalue="Python.response" />
       </list>
     </recent_temporary>
   </component>
@@ -662,7 +663,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605706437662</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="requests——身份验证.">
+      <created>1605706572923</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1605706572923</updated>
+    </task>
+    <task id="LOCAL-00044" summary="requests——请求打包进Request对象中发送.">
+      <created>1605706770997</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1605706770997</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -674,7 +689,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38446215" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38446215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -731,8 +746,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="urllib——通过Request类设置HTTP请求头." />
-    <MESSAGE value="正则表达式." />
     <MESSAGE value="urllib——设置中文HTTP请求头." />
     <MESSAGE value="urllib——页面请求." />
     <MESSAGE value="urllib——Cookie获取、设置和加载." />
@@ -756,60 +769,11 @@
     <MESSAGE value="requests——使用同一个Session." />
     <MESSAGE value="requests——代理." />
     <MESSAGE value="requests——timeout." />
-    <option name="LAST_COMMIT_MESSAGE" value="requests——timeout." />
+    <MESSAGE value="requests——身份验证." />
+    <MESSAGE value="requests——请求打包进Request对象中发送." />
+    <option name="LAST_COMMIT_MESSAGE" value="requests——请求打包进Request对象中发送." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/urllib/Request/SendRequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urllib/Auth/Authorization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urllib/Auth/AuthServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urllib/Auth/BasicAuth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urllib/Cookie/LoadCookie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urllib/Error/UrlErrorDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/urllib/Error/HTTPErrorDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1079,13 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-643338342/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="5066" column="62" lean-forward="true" selection-start-line="5066" selection-start-column="62" selection-end-line="5066" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requests/Cookie.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1107,17 +1064,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requests/timeout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python/Lib/site-packages/requests/auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-643338342/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="5066" column="62" lean-forward="true" selection-start-line="5066" selection-start-column="62" selection-end-line="5066" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/timeout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1129,6 +1093,50 @@
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegularExpression/help.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-810" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/RequestDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twisted/helloworld.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twisted/timeclient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twisted/timeserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twisted/imap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3006" />
       </provider>
     </entry>
   </component>
