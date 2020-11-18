@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/urllib3/sendGetRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib3/POST/sendPostRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllib3/POST/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urllib3/sendGetRequest.py" beforeDir="false" afterPath="$PROJECT_DIR$/urllib3/GET/sendGetRequest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,24 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urllib/UrlHandle/urlencodedemo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urllib/UrlHandle/quotedemo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urllib/UrlHandle/parse_qs_demo.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,14 +77,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/urllib3/sendGetRequest.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urllib3/GET/sendGetRequest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="210">
               <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urllib3/POST/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/urllib3/POST/sendPostRequest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -158,6 +160,8 @@
         <option value="$PROJECT_DIR$/urllib/UrlHandle/parse_qs_demo.py" />
         <option value="$PROJECT_DIR$/urllib/Robot/robotsdemo.py" />
         <option value="$PROJECT_DIR$/urllib3/sendGetRequest.py" />
+        <option value="$PROJECT_DIR$/urllib3/server.py" />
+        <option value="$PROJECT_DIR$/urllib3/POST/sendPostRequest.py" />
       </list>
     </option>
   </component>
@@ -187,6 +191,18 @@
               <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
               <item name="urllib3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="urllib3" type="462c0819:PsiDirectoryNode" />
+              <item name="GET" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="urllib3" type="462c0819:PsiDirectoryNode" />
+              <item name="POST" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -198,17 +214,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\POST" />
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\GET" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Request" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Header" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Error" />
-      <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Auth" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\POST" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Robot" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\UrlHandle" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Error" />
-      <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Cookie" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sendGetRequest">
+  <component name="RunManager" selected="Python.sendPostRequest">
     <configuration name="quotedemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,7 +295,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/urllib3/sendGetRequest.py" />
+      <option name="SCRIPT_NAME" value="D:\MyOwnCodes\Python\SpiserLearning\urllib3\GET\sendGetRequest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,7 +304,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="urlencodedemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sendPostRequest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,11 +312,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/urllib/UrlHandle" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/urllib3/POST" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/urllib/UrlHandle/urlencodedemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/urllib3/POST/sendPostRequest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,7 +325,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="urlsplitdemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,11 +333,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/urllib/UrlHandle" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/urllib3/POST" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/urllib/UrlHandle/urlsplitdemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/urllib3/POST/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,11 +348,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sendPostRequest" />
+        <item itemvalue="Python.server" />
         <item itemvalue="Python.sendGetRequest" />
         <item itemvalue="Python.robotsdemo" />
         <item itemvalue="Python.quotedemo" />
-        <item itemvalue="Python.urlencodedemo" />
-        <item itemvalue="Python.urlsplitdemo" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605693273450</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="urllib3——GET请求.">
+      <created>1605694080527</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605694080527</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -612,7 +636,8 @@
     <MESSAGE value="urllib——url的拆分、合并、连接、编解码、参数转换." />
     <MESSAGE value="urllib——重构目录." />
     <MESSAGE value="urllib——Robot协议." />
-    <option name="LAST_COMMIT_MESSAGE" value="urllib——Robot协议." />
+    <MESSAGE value="urllib3——GET请求." />
+    <option name="LAST_COMMIT_MESSAGE" value="urllib3——GET请求." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-643338342/builtins.py">
@@ -916,13 +941,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urllib3/sendGetRequest.py">
+    <entry file="file://$PROJECT_DIR$/urllib3/GET/sendGetRequest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="210">
           <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urllib3/POST/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urllib3/POST/sendPostRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
