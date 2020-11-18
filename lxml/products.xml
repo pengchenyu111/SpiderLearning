@@ -1,0 +1,10 @@
+<products>
+    <product id="0001">
+        <name>手机</name>
+        <price>4500</price>
+    </product>
+    <product id="0002">
+        <name>电脑</name>
+        <price>6000</price>
+    </product>
+</products>
