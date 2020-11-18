@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/urllib3/FileUpload/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urllib3/FileUpload/upload_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urllib3/FileUpload/upload_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,9 +43,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/urllib3/Timeout/timeout.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urllib3/FileUpload/upload_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state>
               <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -112,6 +118,7 @@
         <option value="$PROJECT_DIR$/urllib3/Header/headers.py" />
         <option value="$PROJECT_DIR$/urllib3/FileUpload/upload_file.py" />
         <option value="$PROJECT_DIR$/urllib3/FileUpload/upload_server.py" />
+        <option value="$PROJECT_DIR$/urllib3/Timeout/timeout.py" />
       </list>
     </option>
   </component>
@@ -136,17 +143,6 @@
               <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="urllib3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="urllib3" type="462c0819:PsiDirectoryNode" />
-              <item name="FileUpload" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -165,11 +161,11 @@
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Header" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\Timeout" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\FileUpload" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\Header" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\POST" />
-      <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Robot" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -184,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.upload_file">
+  <component name="RunManager" selected="Python.helloworld">
     <configuration name="headers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,6 +202,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpiserLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests/helloworld.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="request_header" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,27 +236,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/urllib3/Header/request_header.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sendPostRequest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpiserLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/urllib3/POST" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/urllib3/POST/sendPostRequest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.helloworld" />
         <item itemvalue="Python.upload_file" />
         <item itemvalue="Python.upload_server" />
         <item itemvalue="Python.headers" />
         <item itemvalue="Python.request_header" />
-        <item itemvalue="Python.sendPostRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -514,7 +510,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605700742255</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="urllib3——文件上传.">
+      <created>1605701670624</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1605701670624</updated>
+    </task>
+    <task id="LOCAL-00031" summary="urllib3——timeout.">
+      <created>1605702046899</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1605702046899</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -525,7 +535,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38446215" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38446215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -604,7 +614,9 @@
     <MESSAGE value="urllib3——GET请求." />
     <MESSAGE value="urllib3——POST请求." />
     <MESSAGE value="urllib3——请求头和响应头." />
-    <option name="LAST_COMMIT_MESSAGE" value="urllib3——请求头和响应头." />
+    <MESSAGE value="urllib3——文件上传." />
+    <MESSAGE value="urllib3——timeout." />
+    <option name="LAST_COMMIT_MESSAGE" value="urllib3——timeout." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-643338342/builtins.py">
@@ -955,6 +967,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/urllib3/FileUpload/upload_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/urllib3/FileUpload/upload_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -962,13 +984,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urllib3/FileUpload/upload_server.py">
+    <entry file="file://$PROJECT_DIR$/urllib3/Timeout/timeout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
         </state>
       </provider>
     </entry>
