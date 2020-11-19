@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BeautifulSoup/selectnode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +21,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BeautifulSoup/selectnode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="714">
               <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BeautifulSoup/nest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -45,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/urllib/Error/UrlErrorDemo.py" />
         <option value="$PROJECT_DIR$/urllib/Error/HTTPErrorDemo.py" />
         <option value="$PROJECT_DIR$/urllib/UrlHandle/urlparsedemo.py" />
         <option value="$PROJECT_DIR$/urllib/UrlHandle/urlsplitdemo.py" />
@@ -96,6 +104,7 @@
         <option value="$PROJECT_DIR$/QiDianNovelSpider/NovelSpider.py" />
         <option value="$PROJECT_DIR$/BeautifulSoup/firstbs.py" />
         <option value="$PROJECT_DIR$/BeautifulSoup/selectnode.py" />
+        <option value="$PROJECT_DIR$/BeautifulSoup/nest.py" />
       </list>
     </option>
   </component>
@@ -288,20 +297,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00005" summary="抓取猫眼电影TOP100——其中with的用法.">
-      <created>1605349692434</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1605349692434</updated>
-    </task>
-    <task id="LOCAL-00006" summary="抓取糗事百科的段子（zip函数用法）.">
-      <created>1605361278786</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1605361278786</updated>
     </task>
     <task id="LOCAL-00007" summary="解决中文乱码的问题.">
       <created>1605361554533</created>
@@ -632,19 +627,33 @@
       <option name="project" value="LOCAL" />
       <updated>1605797460788</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="BeautifulSoup——选择结点">
+      <created>1605798350602</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1605798350602</updated>
+    </task>
+    <task id="LOCAL-00055" summary="BeautifulSoup——嵌套选择结点">
+      <created>1605798564300</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1605798564300</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123253495" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123253495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33266932" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31573704" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -701,8 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="urllib3——请求头和响应头." />
-    <MESSAGE value="urllib3——文件上传." />
     <MESSAGE value="urllib3——timeout." />
     <MESSAGE value="requests——helloworld." />
     <MESSAGE value="requests——get请求." />
@@ -726,16 +733,11 @@
     <MESSAGE value="xlwt库生成excel文件." />
     <MESSAGE value="爬取起点中文网全部作品的基本信息." />
     <MESSAGE value="BeautifulSoup——helloworld." />
-    <option name="LAST_COMMIT_MESSAGE" value="BeautifulSoup——helloworld." />
+    <MESSAGE value="BeautifulSoup——选择结点" />
+    <MESSAGE value="BeautifulSoup——嵌套选择结点" />
+    <option name="LAST_COMMIT_MESSAGE" value="BeautifulSoup——嵌套选择结点" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/urllib3/Header/response_headers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/urllib3/Timeout/timeout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -1101,8 +1103,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BeautifulSoup/selectnode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
+        <state relative-caret-position="714">
           <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeautifulSoup/nest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
         </state>
       </provider>
     </entry>
