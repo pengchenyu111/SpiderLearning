@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DouBanBookSpider/BookSpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QiDianNovelSpider/xlwtdemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/xpath/ordernode.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
-              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -67,14 +67,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DouBanBookSpider/BookSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="870">
               <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/QiDianNovelSpider/xlwtdemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -115,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/urllib/Cookie/CookieServer.py" />
         <option value="$PROJECT_DIR$/urllib/Cookie/CookieBasic.py" />
         <option value="$PROJECT_DIR$/urllib/Cookie/CookieFile.py" />
         <option value="$PROJECT_DIR$/urllib/Cookie/LoadCookie.py" />
@@ -166,6 +174,7 @@
         <option value="$PROJECT_DIR$/xpath/ordernode.py" />
         <option value="$PROJECT_DIR$/xpath/nodeaxis.py" />
         <option value="$PROJECT_DIR$/DouBanBookSpider/BookSpider.py" />
+        <option value="$PROJECT_DIR$/QiDianNovelSpider/xlwtdemo.py" />
       </list>
     </option>
   </component>
@@ -192,17 +201,7 @@
             <path>
               <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="DouBanBookSpider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="requests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="xpath" type="462c0819:PsiDirectoryNode" />
+              <item name="QiDianNovelSpider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,11 +215,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning\QiDianNovelSpider" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\DouBanBookSpider" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\xpath" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\lxml" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning" />
-      <recent name="D:\MyOwnCodes\Python\SpiserLearning\requests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\FileUpload" />
@@ -242,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BookSpider">
+  <component name="RunManager" selected="Python.xlwtdemo">
     <configuration name="BookSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -327,7 +326,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="property" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="xlwtdemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,11 +334,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xpath" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QiDianNovelSpider" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xpath/property.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QiDianNovelSpider/xlwtdemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -350,11 +349,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xlwtdemo" />
         <item itemvalue="Python.BookSpider" />
         <item itemvalue="Python.nodeaxis" />
         <item itemvalue="Python.ordernode" />
         <item itemvalue="Python.multiproperties" />
-        <item itemvalue="Python.property" />
       </list>
     </recent_temporary>
   </component>
@@ -368,13 +367,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00001" summary="抓取博客园首页的文章列表的url和title">
-      <created>1605286315069</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1605286315069</updated>
     </task>
     <task id="LOCAL-00002" summary="抓取斗破小说网的小说.">
       <created>1605342288915</created>
@@ -712,19 +704,26 @@
       <option name="project" value="LOCAL" />
       <updated>1605788271310</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="爬取豆瓣TOP250书籍的基本信息.">
+      <created>1605790082103</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1605790082104</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123253495" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123253495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38446215" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38446215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -781,7 +780,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="urllib——重构目录." />
     <MESSAGE value="urllib——Robot协议." />
     <MESSAGE value="urllib3——GET请求." />
     <MESSAGE value="urllib3——POST请求." />
@@ -806,16 +804,10 @@
     <MESSAGE value="xpath的简单语法." />
     <MESSAGE value="更新文件目录说明." />
     <MESSAGE value="XPath——轴." />
-    <option name="LAST_COMMIT_MESSAGE" value="XPath——轴." />
+    <MESSAGE value="爬取豆瓣TOP250书籍的基本信息." />
+    <option name="LAST_COMMIT_MESSAGE" value="爬取豆瓣TOP250书籍的基本信息." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/urllib3/POST/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/urllib3/POST/sendPostRequest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1130,7 +1122,7 @@
     <entry file="file://$PROJECT_DIR$/xpath/ordernode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1159,15 +1151,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DouBanBookSpider/top250books.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2194">
+          <caret line="249" column="78" selection-start-line="249" selection-start-column="78" selection-end-line="249" selection-end-column="138" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DouBanBookSpider/BookSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="870">
           <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QiDianNovelSpider/xlwtdemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
