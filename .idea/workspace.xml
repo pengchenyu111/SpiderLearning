@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BeautifulSoup/firstbs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulSoup/selectnode.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BeautifulSoup/firstbs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
               <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BeautifulSoup/selectnode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -37,7 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/urllib/Cookie/LoadCookie.py" />
         <option value="$PROJECT_DIR$/urllib/Error/UrlErrorDemo.py" />
         <option value="$PROJECT_DIR$/urllib/Error/HTTPErrorDemo.py" />
         <option value="$PROJECT_DIR$/urllib/UrlHandle/urlparsedemo.py" />
@@ -88,6 +95,7 @@
         <option value="$PROJECT_DIR$/QiDianNovelSpider/xlwtdemo.py" />
         <option value="$PROJECT_DIR$/QiDianNovelSpider/NovelSpider.py" />
         <option value="$PROJECT_DIR$/BeautifulSoup/firstbs.py" />
+        <option value="$PROJECT_DIR$/BeautifulSoup/selectnode.py" />
       </list>
     </option>
   </component>
@@ -154,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.firstbs">
+  <component name="RunManager" selected="Python.nest">
     <configuration name="BookSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,7 +226,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nodeaxis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="nest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,11 +234,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xpath" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BeautifulSoup" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xpath/nodeaxis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BeautifulSoup/nest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.nest" />
         <item itemvalue="Python.firstbs" />
         <item itemvalue="Python.NovelSpider" />
         <item itemvalue="Python.xlwtdemo" />
         <item itemvalue="Python.BookSpider" />
-        <item itemvalue="Python.nodeaxis" />
       </list>
     </recent_temporary>
   </component>
@@ -280,13 +288,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00004" summary="抓取猫眼电影TOP100.">
-      <created>1605349409289</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1605349409289</updated>
     </task>
     <task id="LOCAL-00005" summary="抓取猫眼电影TOP100——其中with的用法.">
       <created>1605349692434</created>
@@ -624,19 +625,26 @@
       <option name="project" value="LOCAL" />
       <updated>1605796409309</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="BeautifulSoup——helloworld.">
+      <created>1605797460788</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1605797460788</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123253495" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123253495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33266932" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33266932" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -693,7 +701,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="urllib3——POST请求." />
     <MESSAGE value="urllib3——请求头和响应头." />
     <MESSAGE value="urllib3——文件上传." />
     <MESSAGE value="urllib3——timeout." />
@@ -718,22 +725,10 @@
     <MESSAGE value="爬取豆瓣TOP250书籍的基本信息." />
     <MESSAGE value="xlwt库生成excel文件." />
     <MESSAGE value="爬取起点中文网全部作品的基本信息." />
-    <option name="LAST_COMMIT_MESSAGE" value="爬取起点中文网全部作品的基本信息." />
+    <MESSAGE value="BeautifulSoup——helloworld." />
+    <option name="LAST_COMMIT_MESSAGE" value="BeautifulSoup——helloworld." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/urllib3/Header/request_header.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urllib3/FileUpload/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/urllib3/Header/response_headers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1094,6 +1089,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2126">
+          <caret line="1130" column="13" selection-start-line="1130" selection-start-column="13" selection-end-line="1130" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeautifulSoup/selectnode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
         </state>
       </provider>
     </entry>
