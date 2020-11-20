@@ -1,3 +1,7 @@
+# SpiderLearning
+
+学习Python爬虫的一些资料、记录与心得
+
 # 使用许可
 
 该仓库只用于自己的学习记录，**如涉及侵犯个人或团体利益，请与我联系，我将主动撤销一切相关数据，谢谢**！
@@ -10,28 +14,27 @@
 
 在任何情况下，我们均不对因使用这些数据而造成的任何损失承担责任（包括但不限于数据丢失或数据不准确）。如果您有任何其他问题或意见，请发送电子邮件至: iampengchenyu@163.com
 
-# RegularExpression
 
-正则表达式讲解
 
-# SpiderLearning
+# 项目
 
-学习Python爬虫的一些资料、记录与心得
+- BlogSpider：抓取博客园首页的文章列表的url和title
 
-## BlogSpider
-抓取博客园首页的文章列表的url和title
+- CinemaSpider：抓取猫眼电影Top100
+- JokesSpider：抓取糗事百科文本段子
+- NovelSpider：抓取斗破小说网的文章
+- DouBanBookSpider：爬取豆瓣TOP250书籍的基本信息
+- QiDianNovelSpider：爬取起点中文网全部作品的基本信息
+- XiaoZhuRentSpider：抓取小猪民宿的房源基本信息
+- KouGouRankSpider：抓取酷狗网络红歌排行榜基本信息
 
-## CinemaSpider
 
-抓取猫眼电影Top100
 
-## JokesSpider
+# 知识点
 
-抓取糗事百科文本段子
+## RegularExpression
 
-## NovelSpider
-
-抓取斗破小说网的文章
+正则表达式讲解，help.md含详解
 
 ## urllib
 
@@ -67,8 +70,10 @@ urllib的学习记录
 
 简单demo，Scrapy框架基础。
 
-## lxml
-
-## xpath
+## lxml、xpath
 
 help.md中含xpath的一些语法知识
+
+## BeautifulSoup
+
+选择结点、方法选择器、CSS选择器
