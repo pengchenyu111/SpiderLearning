@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/File/fileinput_demo.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/File/files/data.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/File/files/data1.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/File/files/data2.csv" afterDir="false" />
@@ -13,11 +14,6 @@
       <change afterPath="$PROJECT_DIR$/File/files/product.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/File/files/products.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/File/files/products.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/files/test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/files/urls.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/read_write_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/read_write_line.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/File/read_write_line.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-120">
               <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/File/fileinput_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -80,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/urllib/UrlHandle/urlencodedemo.py" />
         <option value="$PROJECT_DIR$/urllib/UrlHandle/quotedemo.py" />
         <option value="$PROJECT_DIR$/urllib/UrlHandle/parse_qs_demo.py" />
         <option value="$PROJECT_DIR$/urllib/Robot/robotsdemo.py" />
@@ -131,6 +135,7 @@
         <option value="$PROJECT_DIR$/KouGouRankSpider/KouGouRankSpider.py" />
         <option value="$PROJECT_DIR$/File/read_write_file.py" />
         <option value="$PROJECT_DIR$/File/read_write_line.py" />
+        <option value="$PROJECT_DIR$/File/fileinput_demo.py" />
       </list>
     </option>
   </component>
@@ -203,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.read_write_line">
+  <component name="RunManager" selected="Python.fileinput_demo">
     <configuration name="KouGouRankSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +251,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="XiaoZhuRentSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fileinput_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,11 +259,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/XiaoZhuRentSpider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/File" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XiaoZhuRentSpider/XiaoZhuRentSpider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/File/fileinput_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,11 +316,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fileinput_demo" />
         <item itemvalue="Python.read_write_line" />
         <item itemvalue="Python.read_write_file" />
         <item itemvalue="Python.KouGouRankSpider" />
         <item itemvalue="Python.NovelSpider" />
-        <item itemvalue="Python.XiaoZhuRentSpider" />
       </list>
     </recent_temporary>
   </component>
@@ -329,13 +334,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00012" summary="urllib——请求超时异常.">
-      <created>1605363628058</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1605363628058</updated>
     </task>
     <task id="LOCAL-00013" summary="urllib——通过Request类设置HTTP请求头.">
       <created>1605364006282</created>
@@ -673,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605922415086</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="文件处理——基本操作.">
+      <created>1605923336996</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1605923336996</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -742,7 +747,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="requests——post请求." />
     <MESSAGE value="requests——response." />
     <MESSAGE value="requests——文件上传." />
     <MESSAGE value="requests——设置Cookies的两种方式." />
@@ -767,16 +771,10 @@
     <MESSAGE value="抓取酷狗网络红歌排行榜基本信息." />
     <MESSAGE value="更新ReadMe." />
     <MESSAGE value="文件处理——添加知识点help.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="文件处理——添加知识点help.md." />
+    <MESSAGE value="文件处理——基本操作." />
+    <option name="LAST_COMMIT_MESSAGE" value="文件处理——基本操作." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requests/Cookie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requests/session.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1127,13 +1125,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/File/files/urls.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/File/read_write_line.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-120">
           <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/File/files/urls.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/File/fileinput_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
