@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/File/help.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,65 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/KouGouRankSpider/KouGouRankSpider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-643338342/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="5076" column="7" selection-start-line="5076" selection-start-column="7" selection-end-line="5076" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XiaoZhuRentSpider/XiaoZhuRentSpider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-397">
-              <caret line="64" selection-start-line="64" selection-end-line="68" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DouBanBookSpider/BookSpider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-637">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QiDianNovelSpider/NovelSpider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -166,6 +109,11 @@
             <path>
               <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="File" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,13 +278,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00010" summary="更新ReadMe文件.">
-      <created>1605363118003</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1605363118003</updated>
     </task>
     <task id="LOCAL-00011" summary="urllib——urlopen函数的post用法.">
       <created>1605363482256</created>
@@ -674,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605872947409</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="更新ReadMe.">
+      <created>1605873719915</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1605873719915</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -690,7 +638,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3247012" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3247012" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -742,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="requests——添加请求头." />
     <MESSAGE value="requests——抓取二进制文件." />
     <MESSAGE value="requests——post请求." />
     <MESSAGE value="requests——response." />
@@ -767,16 +714,10 @@
     <MESSAGE value="BeautifulSoup——选择结点、方法选择器、CSS选择器." />
     <MESSAGE value="抓取小猪民宿的房源基本信息." />
     <MESSAGE value="抓取酷狗网络红歌排行榜基本信息." />
-    <option name="LAST_COMMIT_MESSAGE" value="抓取酷狗网络红歌排行榜基本信息." />
+    <MESSAGE value="更新ReadMe." />
+    <option name="LAST_COMMIT_MESSAGE" value="更新ReadMe." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python/Lib/site-packages/requests/status_codes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2522">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/urllib3/FileUpload/upload_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1113,7 +1054,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DouBanBookSpider/BookSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-637">
+        <state relative-caret-position="-306">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -1123,7 +1064,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/XiaoZhuRentSpider/XiaoZhuRentSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-397">
+        <state relative-caret-position="-66">
           <caret line="64" selection-start-line="64" selection-end-line="68" selection-end-column="32" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
@@ -1141,10 +1082,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/File/help.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KouGouRankSpider/KouGouRankSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="557">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
