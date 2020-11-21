@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DouBanMovieSpider/douban_movie_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="-270">
               <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -197,6 +196,11 @@
               <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="DouBanMovieSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -234,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DouBanMusicSpider">
+  <component name="RunManager" selected="Python.single_thread">
     <configuration name="DouBanMusicSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,7 +323,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="write_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="single_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,11 +331,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/File" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parallel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/File/write_csv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parallel/single_thread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,11 +346,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.single_thread" />
         <item itemvalue="Python.DouBanMusicSpider" />
         <item itemvalue="Python.mongodb" />
         <item itemvalue="Python.mysql" />
         <item itemvalue="Python.read_csv" />
-        <item itemvalue="Python.write_csv" />
       </list>
     </recent_temporary>
   </component>
@@ -360,13 +364,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00024" summary="urllib——重构目录.">
-      <created>1605692852477</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1605692852477</updated>
     </task>
     <task id="LOCAL-00025" summary="urllib——Robot协议.">
       <created>1605693273450</created>
@@ -704,11 +701,19 @@
       <option name="project" value="LOCAL" />
       <updated>1605964177038</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="更新ReadMe.">
+      <created>1605964384528</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1605964384528</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1242515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -783,7 +788,6 @@
     <MESSAGE value="BeautifulSoup——选择结点、方法选择器、CSS选择器." />
     <MESSAGE value="抓取小猪民宿的房源基本信息." />
     <MESSAGE value="抓取酷狗网络红歌排行榜基本信息." />
-    <MESSAGE value="更新ReadMe." />
     <MESSAGE value="文件处理——添加知识点help.md." />
     <MESSAGE value="文件处理——基本操作." />
     <MESSAGE value="文件处理——使用FileInput对象读取文件（更加节约内存）." />
@@ -797,7 +801,8 @@
     <MESSAGE value="爬取豆瓣音乐Top250." />
     <MESSAGE value="增加newline=''参数，否则生成的csv文件中两行数据见有空行." />
     <MESSAGE value="抓取豆瓣电影排行榜." />
-    <option name="LAST_COMMIT_MESSAGE" value="抓取豆瓣电影排行榜." />
+    <MESSAGE value="更新ReadMe." />
+    <option name="LAST_COMMIT_MESSAGE" value="更新ReadMe." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BeautifulSoup/firstbs.py">
@@ -1137,7 +1142,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DouBanMovieSpider/douban_movie_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="-270">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
