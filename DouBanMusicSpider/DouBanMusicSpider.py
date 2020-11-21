@@ -20,7 +20,7 @@ def get_url_music(url):
 
 
 def save_csv(filename, info):
-    with open(filename, 'a', encoding='utf-8') as f:
+    with open(filename, 'a', encoding='utf-8', newline='') as f:
         fieldnames = ['name', 'author', 'style', 'time', 'publisher', 'score', 'poster']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writerow(info)

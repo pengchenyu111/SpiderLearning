@@ -23,7 +23,7 @@ with open('files/data2.csv', 'w', encoding='utf-8') as f:
                       ['0003', '荣耀手机', '华为', 3456]])
 
 # 写入字典形式的数据，注意字典的key一定要和fieldnames中一致，否则会抛异常
-with open('files/data3.csv', 'w', encoding='utf-8') as f:
+with open('files/data3.csv', 'w', encoding='utf-8', newline='') as f:
     fieldnames = ['产品ID', '产品名称', '生产企业', '价格']
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
