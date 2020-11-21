@@ -1,5 +1,12 @@
 from bs4 import BeautifulSoup
 
+# .classname: 选取class属性值为classname的结点
+# nodename：选取节点名为nodename的结点
+# #idname：选取id属性值为idname的节点
+
+# 获取属性值：使用tag.attrs['xxx']或直接tag['xxx']
+# 获取文本值： tag.get_text()或tag.string
+
 html = '''
 <div>
     <ul>
