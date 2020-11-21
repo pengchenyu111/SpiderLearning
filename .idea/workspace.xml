@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/parallel/multi_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallel/producer_customer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,10 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parallel/multi_process.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -97,11 +97,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parallel/producer_customer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1380">
-              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lxml/products.xml" />
         <option value="$PROJECT_DIR$/lxml/xml.py" />
         <option value="$PROJECT_DIR$/lxml/test.html" />
         <option value="$PROJECT_DIR$/lxml/html.py" />
@@ -191,6 +193,7 @@
         <option value="$PROJECT_DIR$/parallel/thread_semaphore.py" />
         <option value="$PROJECT_DIR$/parallel/thread_semaphore_lock.py" />
         <option value="$PROJECT_DIR$/parallel/producer_customer.py" />
+        <option value="$PROJECT_DIR$/parallel/multi_process.py" />
       </list>
     </option>
   </component>
@@ -262,7 +265,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.producer_customer">
+  <component name="RunManager" selected="Python.multi_process">
+    <configuration name="multi_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpiserLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parallel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parallel/multi_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="producer_customer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -326,27 +350,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="thread_obj" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpiserLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parallel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parallel/thread_obj.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="thread_semaphore_lock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -370,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multi_process" />
         <item itemvalue="Python.producer_customer" />
         <item itemvalue="Python.thread_semaphore_lock" />
         <item itemvalue="Python.thread_lock" />
         <item itemvalue="Python.thread_inherit" />
-        <item itemvalue="Python.thread_obj" />
       </list>
     </recent_temporary>
   </component>
@@ -388,13 +391,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00034" summary="requests——添加请求头.">
-      <created>1605703783220</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1605703783220</updated>
     </task>
     <task id="LOCAL-00035" summary="requests——抓取二进制文件.">
       <created>1605703948307</created>
@@ -732,18 +728,26 @@
       <option name="project" value="LOCAL" />
       <updated>1605971244278</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="多线程threading——生产者-消费者.">
+      <created>1605971802647</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1605971802647</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991511" visible="true" weight="0.1242515" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991511" visible="true" weight="0.1242515" />
       <window_info id="Structure" order="1" sideWeight="0.5008489" side_tool="true" weight="0.1242515" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499002" weight="0.41334662" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.499002" visible="true" weight="0.5049801" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -800,7 +804,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="抓取小猪民宿的房源基本信息." />
     <MESSAGE value="抓取酷狗网络红歌排行榜基本信息." />
     <MESSAGE value="文件处理——添加知识点help.md." />
     <MESSAGE value="文件处理——基本操作." />
@@ -825,7 +828,8 @@
     <MESSAGE value="多线程threading——从Thread类继承." />
     <MESSAGE value="多线程threading——使用Lock." />
     <MESSAGE value="多线程threading——信号量控制." />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程threading——信号量控制." />
+    <MESSAGE value="多线程threading——生产者-消费者." />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程threading——生产者-消费者." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/File/files/test2.txt">
@@ -1131,15 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parallel/multi_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parallel/thread_lock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
@@ -1184,8 +1179,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parallel/producer_customer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1380">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallel/multi_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
