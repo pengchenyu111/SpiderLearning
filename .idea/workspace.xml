@@ -4,8 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/XiaoZhuRentSpider/XiaoZhuRentSpider.py" line="23" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="爬取豆瓣音乐Top250.">
+    <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/DouBanMusicSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="116">
+              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -28,10 +29,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DouBanMovieSpider/douban_movie_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/File/write_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="446">
+              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -78,17 +91,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BeautifulSoup/css_selector_auto.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BeautifulSoup/css_selector_nest.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -120,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/requests/post.py" />
         <option value="$PROJECT_DIR$/requests/response.py" />
         <option value="$PROJECT_DIR$/requests/uploadfile.py" />
         <option value="$PROJECT_DIR$/requests/Cookie.py" />
@@ -165,12 +166,13 @@
         <option value="$PROJECT_DIR$/File/class2json.py" />
         <option value="$PROJECT_DIR$/File/classlist2json.py" />
         <option value="$PROJECT_DIR$/File/json2xml.py" />
-        <option value="$PROJECT_DIR$/File/write_csv.py" />
         <option value="$PROJECT_DIR$/File/read_csv.py" />
         <option value="$PROJECT_DIR$/DB/mysql.py" />
         <option value="$PROJECT_DIR$/BeautifulSoup/css_selector.py" />
         <option value="$PROJECT_DIR$/BeautifulSoup/find_all_attrs.py" />
+        <option value="$PROJECT_DIR$/File/write_csv.py" />
         <option value="$PROJECT_DIR$/DouBanMusicSpider/DouBanMusicSpider.py" />
+        <option value="$PROJECT_DIR$/DouBanMovieSpider/douban_movie_spider.py" />
       </list>
     </option>
   </component>
@@ -195,32 +197,6 @@
               <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="BeautifulSoup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="DouBanMusicSpider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="File" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="File" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="RegularExpression" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -239,11 +215,11 @@
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Header" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning\DouBanMovieSpider" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\DouBanMusicSpider" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\DB" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\File" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\BeautifulSoup" />
-      <recent name="D:\MyOwnCodes\Python\SpiserLearning\QiDianNovelSpider" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,20 +360,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00022" summary="urllib——Error.">
-      <created>1605519686839</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1605519686839</updated>
-    </task>
-    <task id="LOCAL-00023" summary="urllib——url的拆分、合并、连接、编解码、参数转换.">
-      <created>1605692594149</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1605692594149</updated>
     </task>
     <task id="LOCAL-00024" summary="urllib——重构目录.">
       <created>1605692852477</created>
@@ -728,24 +690,37 @@
       <option name="project" value="LOCAL" />
       <updated>1605963291797</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="增加newline=''参数，否则生成的csv文件中两行数据见有空行.">
+      <created>1605963976914</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1605963976914</updated>
+    </task>
+    <task id="LOCAL-00072" summary="抓取豆瓣电影排行榜.">
+      <created>1605964177038</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1605964177038</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1242515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499002" visible="true" weight="0.3864542" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499002" weight="0.3864542" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.499501" weight="0.3247012" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.499501" visible="true" weight="0.3247012" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500998" side_tool="true" weight="0.32968128" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -797,8 +772,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lxml简单用法" />
-    <MESSAGE value="xpath的简单语法." />
     <MESSAGE value="更新文件目录说明." />
     <MESSAGE value="XPath——轴." />
     <MESSAGE value="爬取豆瓣TOP250书籍的基本信息." />
@@ -822,19 +795,11 @@
     <MESSAGE value="BeautifulSoup——添加CSS选择器知识点." />
     <MESSAGE value="BeautifulSoup——添加find、find_all方法的使用说明." />
     <MESSAGE value="爬取豆瓣音乐Top250." />
-    <option name="LAST_COMMIT_MESSAGE" value="爬取豆瓣音乐Top250." />
+    <MESSAGE value="增加newline=''参数，否则生成的csv文件中两行数据见有空行." />
+    <MESSAGE value="抓取豆瓣电影排行榜." />
+    <option name="LAST_COMMIT_MESSAGE" value="抓取豆瓣电影排行榜." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Upan/learning/python/Python爬虫技术-书籍代码/394e462e-8312-11ea-a34d-00163e0396a1_程序代码/程序代码/projects/qidian_novel/NovelSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" selection-start-line="26" selection-end-line="48" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BeautifulSoup/firstbs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1146,16 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/DouBanMusicSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/File/files/data3.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1165,8 +1120,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/File/write_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="446">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/DouBanMusicSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DouBanMovieSpider/douban_movie_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

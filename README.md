@@ -24,6 +24,8 @@
 - JokesSpider：抓取糗事百科文本段子
 - NovelSpider：抓取斗破小说网的文章
 - DouBanBookSpider：爬取豆瓣TOP250书籍的基本信息
+- DouBanMusicSpider：爬取豆瓣音乐Top250
+- DouBanMovieSpider：抓取豆瓣电影排行榜
 - QiDianNovelSpider：爬取起点中文网全部作品的基本信息
 - XiaoZhuRentSpider：抓取小猪民宿的房源基本信息
 - KouGouRankSpider：抓取酷狗网络红歌排行榜基本信息
@@ -77,3 +79,10 @@ help.md中含xpath的一些语法知识
 ## BeautifulSoup
 
 选择结点、方法选择器、CSS选择器
+
+## 数据存储：文件、DB
+
+- python读写文件
+- 写入xml、JSON、CSV文件
+- 写入MYSQL
+- 写入MongoDB
