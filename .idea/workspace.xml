@@ -7,7 +7,6 @@
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/DouBanMusicSpider/DouBanMusicSpider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeautifulSoup/css_selector.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautifulSoup/css_selector.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/DouBanMusicSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="45" column="9" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="630">
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="28" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -68,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BeautifulSoup/css_selector.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -98,11 +97,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-517" />
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/File/files/data3.csv">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -199,11 +193,6 @@
             <path>
               <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="BeautifulSoup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -378,13 +367,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00019" summary="urllib——页面请求.">
-      <created>1605447048327</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1605447048327</updated>
     </task>
     <task id="LOCAL-00020" summary="urllib——页面请求.">
       <created>1605518238325</created>
@@ -722,7 +704,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605949839116</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="BeautifulSoup——添加CSS选择器知识点.">
+      <created>1605960366076</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1605960366076</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -734,14 +723,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3864542" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499002" weight="0.3864542" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3247012" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.499501" weight="0.3247012" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935324" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.32968128" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500998" side_tool="true" weight="0.32968128" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -791,7 +780,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="requests——身份验证." />
     <MESSAGE value="requests——请求打包进Request对象中发送." />
     <MESSAGE value="Twisted异步编程网络框架用法" />
     <MESSAGE value="lxml简单用法" />
@@ -816,7 +804,8 @@
     <MESSAGE value="文件处理——JSON与字典、与对象、与xml的互相转换." />
     <MESSAGE value="文件处理——csv." />
     <MESSAGE value="DB——MySQL和MongoDB相关操作." />
-    <option name="LAST_COMMIT_MESSAGE" value="DB——MySQL和MongoDB相关操作." />
+    <MESSAGE value="BeautifulSoup——添加CSS选择器知识点." />
+    <option name="LAST_COMMIT_MESSAGE" value="BeautifulSoup——添加CSS选择器知识点." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/requests/headers.py">
@@ -850,13 +839,6 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Lib/site-packages/bs4/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2126">
-          <caret line="1130" column="13" selection-start-line="1130" selection-start-column="13" selection-end-line="1130" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1133,16 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/DouBanMusicSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BeautifulSoup/css_selector_auto.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1164,6 +1136,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="1741" column="8" selection-start-line="1741" selection-start-column="8" selection-end-line="1741" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/DouBanMusicSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

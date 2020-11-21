@@ -16,16 +16,13 @@ html = '''
 
 '''
 
-soup = BeautifulSoup(html,'lxml')
-tags = soup.find_all(attrs={"class":"item"})
+soup = BeautifulSoup(html, 'lxml')
+tags = soup.find_all(attrs={"class": "item"})
 for tag in tags:
     print(tag)
 
+# 若为常用属性，如id、class可以直接传进去，不用写在attrs里
 tags = soup.find_all(class_='item2')
 print(tags)
 tags = soup.find_all(id='button1')
 print(tags)
-
-
-
-
