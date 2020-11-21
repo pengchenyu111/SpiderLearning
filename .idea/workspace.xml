@@ -7,9 +7,7 @@
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/parallel/hread_lock_demo.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parallel/multi_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallel/multi_thread_lock.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parallel/producer_customer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parallel/thread_fun.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parallel/thread_inherit.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parallel/thread_obj.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parallel/thread_semaphore.py" afterDir="false" />
@@ -48,13 +46,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parallel/multi_thread_lock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="204">
               <caret line="16" column="32" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parallel/thread_fun.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parallel/thread_obj.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/requests/proxy.py" />
-        <option value="$PROJECT_DIR$/requests/timeout.py" />
         <option value="$PROJECT_DIR$/requests/basicauth.py" />
         <option value="$PROJECT_DIR$/requests/RequestDemo.py" />
         <option value="$PROJECT_DIR$/twisted/helloworld.py" />
@@ -131,6 +151,8 @@
         <option value="$PROJECT_DIR$/parallel/multi_thread.py" />
         <option value="$PROJECT_DIR$/parallel/multi_thread_args.py" />
         <option value="$PROJECT_DIR$/parallel/multi_thread_lock.py" />
+        <option value="$PROJECT_DIR$/parallel/thread_fun.py" />
+        <option value="$PROJECT_DIR$/parallel/thread_obj.py" />
       </list>
     </option>
   </component>
@@ -202,28 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multi_thread_lock">
-    <configuration name="DouBanMusicSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpiserLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DouBanMusicSpider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DouBanMusicSpider/DouBanMusicSpider.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.thread_obj">
     <configuration name="multi_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,7 +288,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="single_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="thread_fun" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,7 +300,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parallel/single_thread.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parallel/thread_fun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="thread_obj" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpiserLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parallel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parallel/thread_obj.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,11 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.thread_obj" />
+        <item itemvalue="Python.thread_fun" />
         <item itemvalue="Python.multi_thread_lock" />
         <item itemvalue="Python.multi_thread_args" />
         <item itemvalue="Python.multi_thread" />
-        <item itemvalue="Python.single_thread" />
-        <item itemvalue="Python.DouBanMusicSpider" />
       </list>
     </recent_temporary>
   </component>
@@ -328,20 +350,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00028" summary="urllib3——POST请求.">
-      <created>1605694584201</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1605694584201</updated>
-    </task>
-    <task id="LOCAL-00029" summary="urllib3——请求头和响应头.">
-      <created>1605700742255</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1605700742255</updated>
     </task>
     <task id="LOCAL-00030" summary="urllib3——文件上传.">
       <created>1605701670624</created>
@@ -672,12 +680,25 @@
       <option name="project" value="LOCAL" />
       <updated>1605966205508</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="多线程——多线程(_thread)使用allocate_lock创建锁、acquire获取锁、release释放锁.">
+      <created>1605966855204</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1605966855204</updated>
+    </task>
+    <task id="LOCAL-00078" summary="多线程threading——使用Thread创建线程，start启动，join等待线程执行完毕.">
+      <created>1605968382329</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1605968382329</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1242515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -741,8 +762,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="xlwt库生成excel文件." />
-    <MESSAGE value="爬取起点中文网全部作品的基本信息." />
     <MESSAGE value="BeautifulSoup——helloworld." />
     <MESSAGE value="BeautifulSoup——选择结点" />
     <MESSAGE value="BeautifulSoup——嵌套选择结点" />
@@ -766,16 +785,11 @@
     <MESSAGE value="多线程——单线程demo." />
     <MESSAGE value="多线程——多线程(_thread)demo." />
     <MESSAGE value="多线程——多线程(_thread)为start_new_thread方法传递参数." />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程——多线程(_thread)为start_new_thread方法传递参数." />
+    <MESSAGE value="多线程——多线程(_thread)使用allocate_lock创建锁、acquire获取锁、release释放锁." />
+    <MESSAGE value="多线程threading——使用Thread创建线程，start启动，join等待线程执行完毕." />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程threading——使用Thread创建线程，start启动，join等待线程执行完毕." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BeautifulSoup/selectnode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python/Lib/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -1087,9 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parallel/thread_fun.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/parallel/multi_thread.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1112,10 +1123,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parallel/multi_thread_lock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="204">
           <caret line="16" column="32" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallel/thread_fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallel/thread_obj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
