@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DouBanMusicSpider/multiprocess_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parallel/help.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +44,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/multiprocess_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="1380">
               <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -169,21 +171,6 @@
             <path>
               <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="DouBanBookSpider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="DouBanMovieSpider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="DouBanMusicSpider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -353,13 +340,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00037" summary="requests——response.">
-      <created>1605704903492</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1605704903492</updated>
     </task>
     <task id="LOCAL-00038" summary="requests——文件上传.">
       <created>1605705066996</created>
@@ -697,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606037526621</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="爬取豆瓣音乐Top250(多进程).">
+      <created>1606037966547</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1606037966547</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -709,7 +696,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499002" weight="0.3864542" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499002" weight="0.31374502" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -766,7 +753,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文件处理——基本操作." />
     <MESSAGE value="文件处理——使用FileInput对象读取文件（更加节约内存）." />
     <MESSAGE value="文件处理——读取和搜索xml文件." />
     <MESSAGE value="文件处理——xml与字典的相互转换." />
@@ -791,12 +777,10 @@
     <MESSAGE value="多线程threading——生产者-消费者." />
     <MESSAGE value="多进程." />
     <MESSAGE value="爬取豆瓣音乐Top250(多线程)." />
-    <option name="LAST_COMMIT_MESSAGE" value="爬取豆瓣音乐Top250(多线程)." />
+    <MESSAGE value="爬取豆瓣音乐Top250(多进程)." />
+    <option name="LAST_COMMIT_MESSAGE" value="爬取豆瓣音乐Top250(多进程)." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/File/files/urls.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/File/fileinput_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1161,9 +1145,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/parallel/help.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/multiprocess_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="1380">
           <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
