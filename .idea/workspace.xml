@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DouBanMusicSpider/multithread_spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DouBanMusicSpider/multiprocess_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,13 +27,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/multithread_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-470">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="75" selection-start-line="75" selection-end-line="83" selection-end-column="5" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/multiprocess_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lxml/test.html" />
         <option value="$PROJECT_DIR$/lxml/html.py" />
         <option value="$PROJECT_DIR$/xpath/test.html" />
         <option value="$PROJECT_DIR$/xpath/firstxpath.py" />
@@ -135,6 +145,7 @@
         <option value="$PROJECT_DIR$/parallel/producer_customer.py" />
         <option value="$PROJECT_DIR$/parallel/multi_process.py" />
         <option value="$PROJECT_DIR$/DouBanMusicSpider/multithread_spider.py" />
+        <option value="$PROJECT_DIR$/DouBanMusicSpider/multiprocess_spider.py" />
       </list>
     </option>
   </component>
@@ -189,19 +200,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyOwnCodes\Python\SpiserLearning\DouBanMusicSpider" />
-      <recent name="D:\MyOwnCodes\Python\SpiserLearning" />
-      <recent name="D:\MyOwnCodes\Python\SpiserLearning\DouBanMovieSpider" />
-      <recent name="D:\MyOwnCodes\Python\SpiserLearning\DB" />
-      <recent name="D:\MyOwnCodes\Python\SpiserLearning\File" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\FileUpload" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\POST" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\GET" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Request" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning\DouBanMusicSpider" />
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning" />
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning\DouBanMovieSpider" />
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning\DB" />
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning\File" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multithread_spider">
+  <component name="RunManager" selected="Python.multiprocess_spider">
     <configuration name="multi_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,6 +241,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parallel/multi_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multiprocess_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpiserLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DouBanMusicSpider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DouBanMusicSpider/multiprocess_spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -280,27 +312,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="thread_lock" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpiserLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parallel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parallel/thread_lock.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="thread_semaphore_lock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -324,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multiprocess_spider" />
         <item itemvalue="Python.multithread_spider" />
         <item itemvalue="Python.multi_process" />
         <item itemvalue="Python.producer_customer" />
         <item itemvalue="Python.thread_semaphore_lock" />
-        <item itemvalue="Python.thread_lock" />
       </list>
     </recent_temporary>
   </component>
@@ -342,13 +353,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00036" summary="requests——post请求.">
-      <created>1605704051137</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1605704051137</updated>
     </task>
     <task id="LOCAL-00037" summary="requests——response.">
       <created>1605704903492</created>
@@ -686,11 +690,19 @@
       <option name="project" value="LOCAL" />
       <updated>1605972209992</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="爬取豆瓣音乐Top250(多线程).">
+      <created>1606037526621</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1606037526621</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991511" visible="true" weight="0.13323353" />
       <window_info id="Structure" order="1" sideWeight="0.5008489" side_tool="true" weight="0.1242515" />
@@ -754,7 +766,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文件处理——添加知识点help.md." />
     <MESSAGE value="文件处理——基本操作." />
     <MESSAGE value="文件处理——使用FileInput对象读取文件（更加节约内存）." />
     <MESSAGE value="文件处理——读取和搜索xml文件." />
@@ -779,16 +790,10 @@
     <MESSAGE value="多线程threading——信号量控制." />
     <MESSAGE value="多线程threading——生产者-消费者." />
     <MESSAGE value="多进程." />
-    <option name="LAST_COMMIT_MESSAGE" value="多进程." />
+    <MESSAGE value="爬取豆瓣音乐Top250(多线程)." />
+    <option name="LAST_COMMIT_MESSAGE" value="爬取豆瓣音乐Top250(多线程)." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/File/read_write_line.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/File/files/urls.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1148,10 +1153,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/multithread_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-470">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="360">
+          <caret line="75" selection-start-line="75" selection-end-line="83" selection-end-column="5" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/multiprocess_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
