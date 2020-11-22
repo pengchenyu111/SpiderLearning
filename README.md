@@ -24,7 +24,7 @@
 - JokesSpider：抓取糗事百科文本段子
 - NovelSpider：抓取斗破小说网的文章
 - DouBanBookSpider：爬取豆瓣TOP250书籍的基本信息
-- DouBanMusicSpider：爬取豆瓣音乐Top250
+- DouBanMusicSpider：爬取豆瓣音乐Top250（多线程版、多进程版）
 - DouBanMovieSpider：抓取豆瓣电影排行榜
 - QiDianNovelSpider：爬取起点中文网全部作品的基本信息
 - XiaoZhuRentSpider：抓取小猪民宿的房源基本信息
@@ -86,3 +86,10 @@ help.md中含xpath的一些语法知识
 - 写入xml、JSON、CSV文件
 - 写入MYSQL
 - 写入MongoDB
+
+## 多线程、多进程
+
+_thread(Python3逐渐废弃此模块)
+
+threading
+
