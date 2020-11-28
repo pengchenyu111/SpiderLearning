@@ -11,6 +11,7 @@ from itemadapter import ItemAdapter
 
 import logging
 import csv
+from myspider.items import MaoyanMoviesItem
 
 logger = logging.getLogger(__name__)
 
@@ -19,7 +20,7 @@ class MyspiderPipeline:
     # spider参数可以判断是哪个爬虫传递过来的item
     def process_item(self, item, spider):
         # 要在settings中开启pipeline
-        if spider.name == "maoyanmoviestop100":
+        if isinstance(item, MaoyanMoviesItem):
             logger.info(item)
             save_maoyan_movie_top100(item)
         return item
