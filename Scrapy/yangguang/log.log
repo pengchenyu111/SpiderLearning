@@ -1,0 +1,555 @@
+2020-11-29 06:03:06 [scrapy.utils.log] INFO: Scrapy 2.4.0 started (bot: yangguang)
+2020-11-29 06:03:06 [scrapy.utils.log] INFO: Versions: lxml 4.6.1.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1h  22 Sep 2020), cryptography 3.2.1, Platform Windows-10-10.0.18362-SP0
+2020-11-29 06:03:06 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'yangguang',
+ 'LOG_FILE': './log.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'yangguang.spiders',
+ 'SPIDER_MODULES': ['yangguang.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+2020-11-29 06:03:06 [scrapy.extensions.telnet] INFO: Telnet Password: fae483b1a28f701b
+2020-11-29 06:03:06 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-11-29 06:03:06 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-11-29 06:03:06 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-11-29 06:03:06 [scrapy.middleware] INFO: Enabled item pipelines:
+['yangguang.pipelines.YangguangPipeline']
+2020-11-29 06:03:06 [scrapy.core.engine] INFO: Spider opened
+2020-11-29 06:03:06 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-11-29 06:03:06 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '东深二路凤岗段金凤凰跨线桥每天早上7点半左右都有洒水车在洒水，因桥上这段路很多泥巴，这么一洒水，车辆满身都是泥巴水，天天洗车都没用！不知道这些洒水车是哪个部门管的，天天在这里洒一些水有何用途？能否將这段路的泥巴清理冲洗干凈呢？不要只是洒湿了而已！！！',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481346',
+ 'id': '267083',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '环保问题'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '东华医院血检结果一般三天后出，三天后再去复诊还要挂号才能复诊，医院结果出的慢，怎么能让患者重复挂号，不合理！去过这么多大医院都是直接找医生看检查单，就东华医院独一份！',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481348',
+ 'id': '267081',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '东华医院松山湖医院重复收取挂号费'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '我在光大山湖城附近住，请问连马路扩建后怎么预留路口？有没有调头路口？进出光大山湖城小区现在出行极其不方便，请公示',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481347',
+ 'id': '267082',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '连马路改扩建工程规划'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '我在11月27日晚上到佰怡家全屋定制看方案设计，晚上给了部分钱开了收据并非定金，当晚因家里情况需要取消退款，得到答复是说不能退，公司不给，我知道全屋定制是按照业主家进行定制，如果下单开始生产就是已经产生费用，这样不退我可以理解，但是在既没有生产也没有签订合同时不予以退款，这并非正规公司所为，现贵公司收了我4870元但只肯对我退予4000元，连设计方案也拒给，损害了消费者权益，请有关部分予以监督，别让下一个消费者受害。淘宝都有7天无理由退换，一个正式经营的实体门店拒绝退款，实属过分，不是定金不予退款口碑也不好',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481358',
+ 'id': '267092',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '全屋定制佰怡家收了钱就不认人'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606539976860217.jpg'],
+ 'content_text': '商家恶意霸占道路，霸占停车位。做法相当夸张。不讲道德。地址：东莞市万江区万红村（群星幼儿园附近）',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481354',
+ 'id': '267096',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '商家恶意霸占停车位。'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606531021106555_750x.png',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606531033296815_750x.png',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606531044886342_750x.png',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606531059729269_750x.png'],
+ 'content_text': '东莞市樟木头镇香樟绿洲69栋1单元102，违规打建100个平方，管理处无视不管，希望政府部门尽快解决。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481336',
+ 'id': '267073',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '东莞市樟木头镇香樟绿洲69栋1单元102，违规打建100个平方，'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606544759704345.jpg'],
+ 'content_text': '常平中学西区男生宿舍背后废弃体育馆前晚上灯常亮，应该是废品站，严重影响睡眠质量。由于是校外的，学校不了了之，加装的窗帘如同虚设，薄如蝉翼，毫无效果。同时个人加装床帘，学校却不分缘由禁止。（我希望能够个人加装床帘，既防光，又有效保护个人隐私。如果为了宿舍美观可以要求及时收起。）\r\n'
+                 '身为学生的我们难以干涉，希望有关部门能够妥善解决，践行求真务实的工作作风，从群众中来到群众中去的工作方法。\r\n'
+                 '能够帮助我们：①让校外废弃体育馆前的废品站的灯晚上十一点后关闭（也不要求早关，就不要影响睡眠就好了）。\r\n'
+                 '②允许学生加装床帘（仅在就寝时挂，其他时间为了宿舍美观可以及时收起。）',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481359',
+ 'id': '267091',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '常平中学西区男生宿舍背后废弃体育馆晚上灯常亮影响睡眠质量'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '父母的一套房改房，90年代的，证上的面积90方，但父亲说当时登记的面积比实际面积少十多方。可以单单测绘自己那套房的套内面积吗？要是多了，可以更改房产证上的面积吗？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481360',
+ 'id': '267095',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '房改房可以重新测绘吗？房产证上的面积能变吗'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '大岭山中惠沁林山庄75栋2单元1楼两处每周六都在施工，早上八点就开始，严重影响了周围居民的正常休息生活状态。本人已经有多个周末发现此问题并向物业管理人员进行反应，但物业每次都是说叫一个保安去看看，敷衍了事，毫无作为。\r\n'
+                 '鉴于此种情况：三番两次投诉物业没有正确处理的不良行为，希望政府部门从严查证。\r\n'
+                 '下附视频。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481350',
+ 'id': '267097',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '大岭山中惠沁林山庄75栋一楼周末装修'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '常平是东部中心，文化、基础设施建设要对标粤港澳大湾区深圳广州一线城市。常平消防主题公园竟然没有消防设备、消防宣传等设施，与公园名称格格不入。如果不懂得建设，建议到广州深圳消防主题公园看看，借鉴下经验。要不把公园名称改了。另外公园内卖驴肉的横幅挂在公园内，是否合适？希望政府继续努力，提高建设标准，对得起东部中心四个字。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481343',
+ 'id': '267086',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '建议常平消防主题公园增加消防设备设施'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1128/1606537125877708.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/1606537127962949.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/1606537129907258.jpg'],
+ 'content_text': '樟木头镇金河工业区古坑，为什么下水道挖了又修，修了又挖，从2018年到至今，以前N次这样，，弄得附近居民苦不堪言，乌烟瘴气的，就不能一次，或者两次修到位，要多次修。创建文明绿化东莞人民群众是支持的，但要到位。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481349',
+ 'id': '267098',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '下水道'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606533591870427.jpg'],
+ 'content_text': '石龍中圍興隆派出所對面巷條路，本來停車都難了，這條路有些人自私私的，老是用爛單車，摩托車來霸位自己用，我們無論什么時候回去都找不到位，請有關部門正視一下。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481345',
+ 'id': '267084',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '停车霸位问题'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '凯达科技设计中心后面的凯达南路现在基本完工，还没正式开工，但已经有很多教练车进入练车，每天不断鸣喇叭，平均每分钟几次，噪音不断！！！严重影响正常办公和休息，心脏都不断受刺激！！！',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481339',
+ 'id': '267090',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '未开通的凯达南路每天十几辆教练车进入练车鸣喇叭，严重影响办公和休息'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '今天早上带着小孩来到莞城疾病预防控制中心打水痘疫苗，这个水痘疫苗在上个星期已经约了号，约的是水痘疫苗单独的号，来到中心人又多，路又堵的，在门口排队排了半个多小时，进去之后被告知水痘疫苗没苗了，工作人员解释说莞城的学校要集中接种，把疫苗都调走了，他也没办法。需要我12月14号之后再重新预约，我就想问了，学校的小孩为什么不用预约就能打，我预约了反而就不能打，不能打就算了，还要我重新预约，到底是哪个领导批准了这次调动，又是哪个部门授权你们剥夺正常约号小孩打疫苗的权利，这其中有没有违规操作，有没有违法行为，我需要一个合理的解释，请不要打官腔',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481342',
+ 'id': '267087',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '是谁授权剥夺正常约号小孩打疫苗的权利！？'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '别的学校都已经举办了成人礼或者有通知 东莞商业为何不办 据说是因为觉得没必要 我想问下为什么没有必要 '
+                 '人生就一次成人礼而且就2018届没有成人礼是否合理  希望可以得到答复和处理',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481357',
+ 'id': '267093',
+ 'publish_time': '2020-11-28 15:26:25',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '东莞商业学校不办成人礼合理吗'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '今天回复的说已经协调及时清理家禽，怎么今天还有呢？？难道只是形式主义吗？？？六甲村中地工业区内养鸡鸭从早叫到晚，请问怎么休息？现在是凌晨4点，好不容易回复有个结果，今晚又是这样？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481318',
+ 'id': '267071',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '投诉噪音'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '请问虎门白沙每晚半夜究竟是谁在施工？每晚半夜12点过到一两点，施工噪音非常之大，根本无法入睡。本人住处（既拍视频处）虎门白沙一村水门坊，住的楼层越高，听到的噪音越大，吵得夜夜难以入睡，休息不好，已严重影响工作和生活？望相关部门处理！',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481320',
+ 'id': '267070',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '半夜噪音严重扰民！'}
+2020-11-29 06:03:07 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '投诉天利中央花园的篮球场，1.违建。2.扰民。\r\n'
+                 '说明：1.相关部门已确认该篮球场未经申报，无任何手续。\r\n'
+                 '2.旁边君珆花园住户离篮球场很近，不得不全天关双层玻璃的门窗，不然作业没法做，电视没法看，觉没法睡，如果说篮球场可以锻炼，那跟君珆花园的住户有什么关系？相关部门说考虑到天利业主的锻炼需要，这一点我们也没意见，请让他们改成别的锻炼方式，请一定要考虑君珆花园住户的基本生活诉求：不受嗓音打扰！\r\n'
+                 '3.天利物业根本不管，天利的业主从早上7点打到晚上11点，想什么时候打就什么时候打，请问君珆花园住户怎么生活？投诉很多年，沟通很多年，物业可以说油盐不进，没有任何改观，甚至还对我们恶语相向：没给我交物业费凭什么找我？\r\n'
+                 '4.请问该篮球场到底哪个部门在管，方便以后直接投诉，谢谢！',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481323',
+ 'id': '267067',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '关于天利中央花园篮球场的投诉4'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '道滘镇南城村环城路一带，特别是东豪花园楼下一带的商店及豪迈路一带的商铺和两个修车店，经常利用雪糕筒、破旧单车、三轮车、电动车、轮胎等长期霸占公路的停车位。导致车主无法停车。请相关部门核查处理 '
+                 '谢谢',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481324',
+ 'id': '267066',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '商铺利用工具霸占路边公共停车位'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '东莞市莞城街道博厦社区水榕坣那里一处民宅星期六早上8点就施工扰民，噪音极大。希望有关部门管管。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481326',
+ 'id': '267064',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '东莞'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606527003995467.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606527008170564.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606527016488214.jpg'],
+ 'content_text': '寮步凫山和尚山小区：1，污水分流工程本来已完成，但现在又开挖了，开挖都无所谓，所谓的是开挖了就停了一个月。2，这个小区的卫生也差得无法形容。污泥满地，垃圾扫不干净，垃圾乱堆乱放，烂冰箱堆到路上',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481330',
+ 'id': '267078',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '工程扰民何时了'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '麻涌中学宿舍蚊子很多一个晚上咬我一个手49个包 这么冷还开空调导致感冒人多 管理也不好',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481329',
+ 'id': '267079',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '麻涌中学'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '道滘镇南城村豪迈路二巷附近的一个小型的广场里，有一群吃饱shi撑着的大妈经常跳舞放音乐超大声；是投诉她们放音乐太大声；关键是这音乐还*****难听死了，小孩无法专心做作业  '
+                 '跪求相关部门处理',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481325',
+ 'id': '267065',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '广场大妈扰民'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '麻涌中学宿舍规章制度真的不知道学校想什么，不给学生弄蚊帐 反映了数次清洁灭蚊问题 没人处理 晚上睡眠严重影响  '
+                 '体育班第二天训练严重无力 抽筋 还把体育班放在第一层 喂蚊子算了 反映了也没人处理  一晚上给咬40几个包 ！！',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481332',
+ 'id': '267076',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '麻涌中学宿舍问题严重影响学生休息'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606492480695387_750x.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606492481940918_750x.png',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606492484254791_750x.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606492485203608_750x.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606492486322785_750x.png',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606492488895122_750x.png',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606492490931738_750x.png'],
+ 'content_text': '尊贵的领导，我已在8月份反映过东环路田坑路三片路段过往汽车行驶速度极快，虽然得到相关部门回复但一直没有见到有相关部门落实处理，我相信东莞不论哪个镇区别说全国百强镇的横沥欠缺这一点财政经费，现于今个月24日红绿灯处就发生起交通事故失去一条人命，我相信责任不是单方面造成，但是若然在该事故中的汽车速度慢点也会刹得住车可保住一条人命，可以看看现场拍摄的视频车速快到连截屏也来差点不及，希望尊贵的领导能真正重视并不是口头重视，督促尽快落实保障人民生命安全。谢谢！',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481315',
+ 'id': '267053',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '生命诚可贵，猫有九条命但是人只有一次'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606504561642152.jpg'],
+ 'content_text': '本人居住在东莞市桥头镇李屋村金湖路，经常被工业噪音和废气困扰。从11月中开始，一出门或开窗就能闻到一股工业废气的味道，时间长了今人想呕吐。根据风向和就近原则，怀疑气味由金湖路411号厂房作业时产生。据观察，该厂房一楼自从开始生产后一直有产生作业噪音，气味也随之而来。因只是小市民而无法核实，请相关部门切查附近厂房对周边居民的噪音污染和空气污染。现已是零晨三点，该厂房依然作业，有噪音的同时工业气味也能闻到(附图)。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481316',
+ 'id': '267052',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '东莞市桥头镇李屋村金湖路居民经常被工业废气困扰'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1128/1606529566966388.jpg'],
+ 'content_text': '您好，东莞高级中学高二级数学科组许老师是我们的数学老师，基本上（超过百分之90）每次布置作业老师都要求学生用一张纸写作业，学生的试卷、练习册根本没写过，全部看题写纸上。我们知道老师很想让我们有好成绩，但是我们想不明白为什么放着练习册、试卷不在上面写，而是要写在纸上？开学现在已经消耗了学生大量纸张，而纸张撕下来后难以保存根本起不到复习作用，在这里我们建议老师不要再布置用纸写作业，谢谢',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481333',
+ 'id': '267075',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '关于东莞高级中学老师浪费纸张'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '蔚蓝星湖小区星慧庭17座4B租户养狗和猫，房屋异味太重，已经严重影响周边居民生活。经物业多次上门沟通后仍无改善。希望能协调处理。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481331',
+ 'id': '267077',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '关于居民养狗影响生活'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '一户一宅是一个户口本一宅？那一个户口里面两个人有地 一块地有建筑物 另一块就想建可以报建否？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481334',
+ 'id': '267074',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '一户一宅'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '希望将四乡村入村道路进行升级现在四乡入村道路大烂了逢雨必浸，路灯又不够光',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481308',
+ 'id': '267060',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '四乡村路面希望重新改造'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '请问硬币是人民币吗？是法定流通的货币吗？\r\n'
+                 '为什么工商银行虎门支行营业部拒收？\r\n'
+                 '还有员工理直气壮的说 你试一下去投诉有无用？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481302',
+ 'id': '267046',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '请问硬币是人民币吗？是法定流通的货币吗？'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '我很好奇东莞地方交警为何在处理交通问题时，只要听到不是在当地维修车辆时，都会把问题拖的很久，或者不处理，让市民叫拖车拖去很远的地方中队处理，地方中队还问为何会在这里处理，是不是塘厦交警和地方维修店有利益关系，请当地政府狠狠惩罚，这一类腐败现象。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481312',
+ 'id': '267056',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '交警处理交通问题'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606485928663826.jpg'],
+ 'content_text': '11月27交警凌晨两三点在圃锦北路大量抄牌违停车辆，联华花园城小区是个十几年的小区了，车位配比1：0.5，小区内停车位严重不足，业主晚上停路边过夜实属无奈之举，一般早上就开走了，且晚上路边停车并不妨碍正常通行，白天通行量大违停抄牌大家也都表示理解，但半夜抄牌实在是无法理解！！！连深圳很多路段为了缓解停车难问题都允许夜间路边停车，东莞的政策就不能考虑一下老百姓的实际困难？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481304',
+ 'id': '267044',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '凌晨两三点圃锦北路大量车辆被抄牌违停！！'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606506295668377_750x.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606506296550845_750x.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606506297703733_750x.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606506298687863_750x.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606506299908536_750x.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606506300706053_750x.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606506301985684_750x.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606506301996211_750x.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1128/mark_1606506303719593_750x.jpg'],
+ 'content_text': '领导你好！关於空置房物业按70%收费收取吗？根据《物业服务收费管理办法》中的有关规定，物业服务收费应当区分不同物业的性质和特点分别实行政府指导价和市场调节价。\r\n'
+                 '而且我的物业是由於豪屋花园东莞市尚君物业经理断水断电勒索金钱而引致不能居住的！\r\n'
+                 '另外还要在外另租房屋暂住。希望政府公正处理！依法治国！\r\n'
+                 '断水断电2年4个月了我也在交管理费！疫情期不能做饭更不能住，外面有段时间没店开门！',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481317',
+ 'id': '267062',
+ 'publish_time': '2020-11-28 10:29:00',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '空置房物业费按70%的规定收费吗？而且是豪屋花园东莞市尚君物业破坏水电而不能住的！'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '根据国家和省有关通知，从2020年1月1日起，调整全省退休人员基本养老金的有关规定，我的父亲今年93岁了，为何他的养老金一直没有上调，都是支750元呢？请予以查明！',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481307',
+ 'id': '267061',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '东莞市望牛墩镇退休人员基本养老金上调没有？'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '我是东莞市望牛墩镇李屋村村民。依照《广东省农村土地承包经营权确权登记颁证实施方案》的目标任务，农村土地承包经营权确权登记颁证,是依据有关法律法规,以二轮土地承包台账、农村土地和户籍资料等为基础,以现代信息技术为手段,通过收集资料、制作底图,外业调查、内业处理,张榜公示、签卬确认、审核颁证等程序,由县(区、市)农村土地承包管理部门对家庭农户承包土地的地块、面积、空间位置等信息及其变动情况记载于登记簿,由省级农业主管部门统一印制农村土地承包经营权证书,加盖县级人民政府印章后颁发到农户,重点解决承包地块面积不准、四至不清、空间位置不明、登记簿不健全等问题,实现承包地面积、承包合同、经营权登记簿、经营权证书“四相符”,承包地。但是，现在确权登记已经结束，我村委会弄虚作假，把鱼塘、河涌确权，有部分耕地也已经被非法挖了鱼塘，在没有召开股东大会的情况下，擅自确权，非法截留群众的土地承包经营权证，本人已经多次反映问题，政府部门不了了之。现在，再次举报，希望严查！',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481311',
+ 'id': '267057',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '东莞市农村农业局不作为'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '我是买家，9.16日办理过户，9.25日领证抵押，10.8日抵押完成，一直到今天11.26日还没有放款，一直说没有额度，我应该怎么处理呢？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481313',
+ 'id': '267055',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '关于工商银行东城支行房款放款太慢！'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606475532199306.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606475532839303.jpg'],
+ 'content_text': '图上位于东莞市虎门镇人民北路427号永楷大厦、博美豪苑，分别是潮汇、潮盛门店                 '
+                 '夜间大排档，每晚夜晚，油烟四起，乌烟瘴气十分扰民，油烟管道偷开小门偷排，严重影响环境，严重影响我们居民呼吸道风险，迟早会患上慢性肺炎或咽喉炎，从而倒在油烟之下。两个居民楼一带群众一到晚上，就关窗、关门。一开窗台油烟往回飘。事实关系到我们的身体健康，严重影响我们的生活。不应该只为自己的利益着想，葬送我们的健康。                           '
+                 '恳请领导着力解决这两个据点，要将这些大排档全封闭处理，不能随意打开释放毒气，责令恢复城市容貌',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481292',
+ 'id': '267031',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '25天17小时56分',
+ 'status': '待处理',
+ 'title': '油烟，乌烟瘴气'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '第五高级中学虽然重艺术，但学校里不止有艺术生，还有普通生，学校却区别对待，就对于这次正在进行的高二篮球赛，明明都是学生，学校里高二有十六个班，艺术生占了四个班，我们也知道艺术生中男生少，学校把他们四个班的男生合起来组成一队我们也没有意见，但凭什么普通生每个班都要进行轮流赛才能进八强，而艺术生他们的对就挑普通生一个班打，赢了就直接进八强，明明都是人，凭什么区别对待。就因为重艺术，就什么都偏向艺术班，这是我不能理解的，明明每次开重点会议的时候，校长自己都说，我们学校虽然重艺术，但对学生都是一样的。可表现出来的种种，我都只看到了他的偏心。还有，我更不能理解的是，学校要扩建却要拆掉跑道跟足球场，拆掉我们体育训练的地方去给艺术生建宿舍楼，凭什么，我们不也还要体育考试，跑道都拆了叫我们跑什么，就只考虑了艺术生，普通生就不是人了。有大型文艺活动的时候，艺术生做在第一线，老师才第二，普通生最后，我能理解安排艺术生在第一的初衷，可这样安排把学生置顶于老师之上，把学生分级处理，在围观者和我们眼里，却能明显看出我们和这样的学校存在的一些格格不入，试问谁不想在自己的高中生活里找到那么一点的归属感。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481314',
+ 'id': '267054',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '投诉东莞市高埗镇第五高级中学'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '之前通过人才入户到东莞东城的集体户，后来在惠州买了房，户口就从东莞迁到了惠州， '
+                 '因为工作在东莞，长期生活在东莞，户口想再迁回来可以吗？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481296',
+ 'id': '267041',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '户口回迁'}
+2020-11-29 06:03:08 [scrapy.core.scraper] ERROR: Spider error processing <GET http://wz.sun0769.com/political/index/politicsNewest?id=1&page=4> (referer: http://wz.sun0769.com/political/index/politicsNewest?id=1&page=3)
+Traceback (most recent call last):
+  File "d:\python\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "d:\python\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "d:\python\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "d:\python\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "d:\python\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "d:\python\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "d:\python\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "d:\python\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "d:\python\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "d:\python\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "d:\python\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "D:\MyOwnCodes\Python\SpiserLearning\Scrapy\yangguang\yangguang\spiders\questionspider.py", line 21, in parse
+    item['response_time'] = re.findall('等待处理：(.*)', li.xpath('./span[@class="state4"]/text()').get().strip())[0]
+IndexError: list index out of range
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606484538157186_750x.png',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606484541258443_750x.png',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606484545986276_750x.png'],
+ 'content_text': '东莞市塘厦镇平山社区，高尔夫大道南主道上，从高尔夫球场往清湖方向，在骏景花园八匹马附近，如图三示，有2处位置路面破损太严重了，裂缝大，落差高，车子过去时都要跳一下，盼望早日维修。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481303',
+ 'id': '267045',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '高尔夫大道南道路破损严重'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': None,
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481297',
+ 'id': '267051',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '莞惠城轨班次安排不合理'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '塘角村塘一民小组路口，天猫小店门口每天早上有人在这摆早餐，每天早上上班路口都堵满了影响我们正常开车去上班。这里摆摊长达2年多，跟村民投诉过多次，都没有城管局早上过来管管。\r\n'
+                 '是不是要上了抖音，引起关注才有人管管？马路路口窜来窜去一不注意就会出现交通意外。\r\n'
+                 '路的两边又画了停车线都停满了车，中间路本来就很窄了，买早餐的人直接把车都停路中间了\r\n'
+                 '塘角村摆摊的位置在兴辉市场后面，这条路什么时候可以摆摊了？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481295',
+ 'id': '267040',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '茶山镇塘角村乱摆摊影响上班投诉多次无人管'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606480845658970.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606480846788313.jpg'],
+ 'content_text': '本人发现一辆黄牌粤B·DF331的黑色客车以及一辆蓝牌粤S·9E1Q8的厢式小货车在桥头宏达五街停放已有半年之久，厢式小货车车门已经关不上了，车身明显锈迹斑斑，其存在明显的安全隐患，再加上由于宏达路没有规划路边停车位，导致很多车辆要停在宏达五街，恳请有关部门查清以上两辆机动车的情况，以便进一步处理，谢谢。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481300',
+ 'id': '267048',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '关于宏达五街两部僵尸车的问题'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '位于东城区大井头路东昱楼与富港一号之间的路没有人行道及汽车可转的标示，现在路中间是双实线的，按交通法规定，车不可在这进入小区，必须要行车至大约300米才可掉头，这样太不人性化了，为方便出行，可否变更此处的线标？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481305',
+ 'id': '267043',
+ 'publish_time': '2020-11-27 23:51:27',
+ 'response_time': '26天17小时56分',
+ 'status': '待处理',
+ 'title': '道路标线建议'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606469607371308.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606469608628774.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606469610236534.jpg'],
+ 'content_text': '寮步河滨花园6栋7楼某一用户装修废物不处理，就扔在楼下河滨花园4栋楼下，应该是装修废物对上那家（因不知道上面房号）之前这家处理了一批了，后来可能又产生，就一直没处理放了已经23个月了。不知道是否成为老鼠窝、请处理一下',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481288',
+ 'id': '267035',
+ 'publish_time': '2020-11-27 18:25:39',
+ 'response_time': '25天17小时56分',
+ 'status': '待处理',
+ 'title': '寮步河滨花园6栋7楼某住户装修废物不处理'}
+2020-11-29 06:03:08 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '官方公布的消息，轻轨12号线起点站有说是道窖站，又有说是天安数码城附近！到底哪个是真的？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481284',
+ 'id': '267029',
+ 'publish_time': '2020-11-27 18:25:39',
+ 'response_time': '25天17小时56分',
+ 'status': '待处理',
+ 'title': '轻轨12号线：起点是道窖站还是天安数码城站'}
+2020-11-29 06:03:09 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '有两个问题想咨询一下社保局。\r\n'
+                 '1.我爸62岁，在东莞交社保10年，以后能在东莞      申请退休吗？\r\n'
+                 '2.如果可以，那到了65岁(届时已交社保13年)，是补交两年社保退休？还是继续交到67岁申请退休？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481291',
+ 'id': '267032',
+ 'publish_time': '2020-11-27 18:25:39',
+ 'response_time': '25天17小时56分',
+ 'status': '待处理',
+ 'title': '我爸62岁，在东莞交社保10年，以后能在东莞申请退休吗？'}
+2020-11-29 06:03:09 [yangguang.pipelines] INFO: {'content_img': [],
+ 'content_text': '谢岗748路候车时间长，该线里程短，客流不高，候车时间极长，该线就是所谓的“冷门线路”对此提出2点优化建议1.由对开改为单向循环线（单边调度）增大发车密度，采用微巴车型运营。2.在沿线公交站及车厢公示发车时间表，为市民提供可预期的公交服务，方便市民提前规划出行时间。',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481285',
+ 'id': '267038',
+ 'publish_time': '2020-11-27 18:25:39',
+ 'response_time': '25天17小时56分',
+ 'status': '待处理',
+ 'title': '748候车时间长'}
+2020-11-29 06:03:09 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606470963839094.jpg',
+                 'http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606470987563744.jpg'],
+ 'content_text': '麻涌镇南峰时代广场居民希望更换天然气。部分初步与新奥燃气洽谈以及初次信访。均是新奥认为现有管道不安全。而信访求助帮忙协调燃气管道安全事宜得到的回复是燃气管道安全需要物业和业主委员会牵头检测。而南峰小区物业没有主动检测燃气安全的动力，南峰小区也没有业委会。安全问题无小事。到底该找谁？大部分小区居民希望利用现有管道更换天燃气，减少浪费，降低成本。而新奥认为物业公司没有提供燃气管道资料不能使用现有管道。希望政府带领深入参与协调不要再推脱回复物业公司和业委会处理。普通居民没有能力协调物业公司和燃气公司。普通居民也没有能力推动小区更换燃气或者燃气管道。信访是向政府求助帮忙处理以下问题，1，首先不管是应该谁负责谁牵头，先帮忙协调安排安全检测。2如果管道检测存在安全隐患，帮忙协调安排解决安全隐患。3尽力帮忙牵头业主和燃气公司沟通协调更换天然气。如果以上都不愿意做或者做不到。请一定回复关于燃气安全和更换天然气的问题你们能做什么？做了什么？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481289',
+ 'id': '267034',
+ 'publish_time': '2020-11-27 18:25:39',
+ 'response_time': '25天17小时56分',
+ 'status': '待处理',
+ 'title': '请政府帮忙协调处理麻涌镇南峰时代广场小区燃气管道安全和更换天然气的问题'}
+2020-11-29 06:03:09 [yangguang.pipelines] INFO: {'content_img': ['http://ugcuploadzdg.sun0769.com/1/2020/1127/mark_1606469323629675.jpg'],
+ 'content_text': '线路老化需要更新光纤？可主机用了光纤的，为什么副机还是使用旧线路？是不是变相忽悠升级套餐？原本电视正常观看中，突然给你停机，打电话通知你需要升级，请问是不是强制用户升级使用？明明旧线路可以使用，是不是想钱想疯了？',
+ 'href': 'http://wz.sun0769.com/political/politics/index?id=481286',
+ 'id': '267037',
+ 'publish_time': '2020-11-27 18:25:39',
+ 'response_time': '25天17小时56分',
+ 'status': '待处理',
+ 'title': '说线路老化需要升级，你tmd忽悠谁'}
+2020-11-29 06:03:09 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-11-29 06:03:09 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 27571,
+ 'downloader/request_count': 62,
+ 'downloader/request_method_count/GET': 62,
+ 'downloader/response_bytes': 696410,
+ 'downloader/response_count': 62,
+ 'downloader/response_status_count/200': 55,
+ 'downloader/response_status_count/502': 7,
+ 'elapsed_time_seconds': 2.228923,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 11, 28, 22, 3, 9, 123345),
+ 'item_scraped_count': 51,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 61,
+ 'request_depth_max': 4,
+ 'response_received_count': 55,
+ 'retry/count': 7,
+ 'retry/reason_count/502 Bad Gateway': 7,
+ 'scheduler/dequeued': 62,
+ 'scheduler/dequeued/memory': 62,
+ 'scheduler/enqueued': 62,
+ 'scheduler/enqueued/memory': 62,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2020, 11, 28, 22, 3, 6, 894422)}
+2020-11-29 06:03:09 [scrapy.core.engine] INFO: Spider closed (finished)
