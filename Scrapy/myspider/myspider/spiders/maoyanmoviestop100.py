@@ -1,6 +1,7 @@
 import scrapy
 import re
 import logging
+from myspider.items import MaoyanMoviesItem
 
 logger = logging.getLogger(__name__)
 
@@ -15,7 +16,7 @@ class Maoyanmoviestop100Spider(scrapy.Spider):
     def parse(self, response):
         movie_list = response.xpath("//dl//dd")
         for movie in movie_list:
-            item = {}
+            item = MaoyanMoviesItem()
             item['rank'] = movie.xpath('./i/text()').get()
             item['movie_id'] = re.findall('{movieId:(\d+)}', movie.xpath('a/@data-val').get())[0]
             item['name'] = movie.xpath('./a/@title').get()
