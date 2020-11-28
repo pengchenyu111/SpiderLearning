@@ -21,6 +21,16 @@ class YangguangPipeline:
             save_maoyan_movie_top100(item)
         return item
 
+    def open_spider(self, spider):
+        # 在爬虫开启时执行一次
+        # 一般这里用来方数据库连接开启，或文件开启
+        pass
+
+    def close_spider(self, spider):
+        # 在爬虫关闭时执行一次
+        # 一般这里用来方数据库连接关闭，或文件关闭
+        # 注意要是文件操作的话，python是在关闭后菜写入数据的，所以若是之前出错了，可能导致前面的数据也写不进去
+        pass
 
 def save_maoyan_movie_top100(item):
     filename = 'questions.csv'
