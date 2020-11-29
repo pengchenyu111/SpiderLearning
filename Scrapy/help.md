@@ -39,3 +39,11 @@ scrapy genspider [爬虫名] [允许爬取的范围]
 scrapy crawl [爬虫名]
 ```
 
+
+
+# 细节
+
+1. 在进行列表页加多层详情页时，可能出现有的爬取内容是重复的，这是因为**深拷贝与浅拷贝**的原因，这在编码时要看item是共用的还是每个内容一个item。
+   处理：使用**deepcopy**
+   详情见：https://www.bilibili.com/video/BV1Jx411d7F2?p=13 25:34
+
