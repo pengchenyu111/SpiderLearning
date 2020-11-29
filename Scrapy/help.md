@@ -39,6 +39,38 @@ scrapy genspider [爬虫名] [允许爬取的范围]
 scrapy crawl [爬虫名]
 ```
 
+创建crawlspider
+
+```python
+scrapy genspider -t crawl [爬虫名] [允许爬取的范围]
+```
+
+------
+
+
+
+# CrawlSpider
+
+**LinkExtractor 更多常见参数：** 
+
+- allow：满足括号中．‘正则表达式”的 URL 会被提取，如果为空．则全部匹配 
+- deny ：满足括号中“正则表达式”的 URL 一定不提取（优先级高于 allow ）。 
+- allow_domains ：会被提取的链接的 domains
+- deny_domains ：一定不会被提取链接的 domains 
+- restrlct_xpaths ：使用 xpath 表达式．和 allow 共同作用过滤链接．xpath 满足范圈内的 url地址会被提取 
+
+**spiders . Rule 常见参数：** 
+
+- link_extractor 是一个LinkExtractor 对象，用于定义要提取的链接 
+- callback ：从 link_extractor 中每获取到链接时，参数所指定的值作为回调函数 
+- follow：是一个布尔值，指定了根据该规则从 response 提取的链接是否要跟进．如果 callback 为 None , follow 默认为朴True ．否则默认为 False 
+-  process_links：指定该 spider中哪个的函数将会被调用，从 Iink _ extractor 中获取到链接列表时将会调用该函数，该方法主贾用来过滤url
+- process_request ：指定该 spider 中哪个的函数将会被调用，该规则提取到每个 request 时都会调用该函数，用来过滤request
+
+
+
+------
+
 
 
 # 细节
