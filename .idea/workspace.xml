@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f245649c-2088-4af3-810d-eac276d32c12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/spiders/zz.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapy/yangguang/yangguang/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapy/yangguang/yangguang/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrapy/help.md" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapy/help.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,19 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scrapy/yangguang/yangguang/settings.py">
+        <entry file="file://$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scrapy/yangguang/yangguang/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="1200">
+              <caret line="40" column="79" selection-start-line="40" selection-start-column="79" selection-end-line="40" selection-end-column="79" />
               <folding>
                 <element signature="e#238#273#0" expanded="true" />
               </folding>
@@ -40,11 +32,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB/mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1140">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="-750">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/spiders/my_movie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/spiders/zz.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python/Lib/html/parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-409">
+              <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="22" column="129" selection-start-line="22" selection-start-column="129" selection-end-line="22" selection-end-column="129" />
             </state>
           </provider>
         </entry>
@@ -62,9 +102,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>status_code</find>
-      <find>user</find>
       <find>ro</find>
       <find>pipe</find>
+      <find>user</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -73,12 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BeautifulSoup/nest.py" />
-        <option value="$PROJECT_DIR$/XiaoZhuRentSpider/XiaoZhuRentSpider.py" />
-        <option value="$PROJECT_DIR$/KouGouRankSpider/KouGouRankSpider.py" />
-        <option value="$PROJECT_DIR$/File/read_write_file.py" />
-        <option value="$PROJECT_DIR$/File/read_write_line.py" />
-        <option value="$PROJECT_DIR$/File/fileinput_demo.py" />
         <option value="$PROJECT_DIR$/File/read_search_xml.py" />
         <option value="$PROJECT_DIR$/File/dict2xml.py" />
         <option value="$PROJECT_DIR$/File/files/persons.xml" />
@@ -124,6 +158,12 @@
         <option value="$PROJECT_DIR$/Scrapy/yangguang/yangguang/spiders/questionspider.py" />
         <option value="$PROJECT_DIR$/Scrapy/yangguang/yangguang/settings.py" />
         <option value="$PROJECT_DIR$/Scrapy/yangguang/yangguang/pipelines.py" />
+        <option value="$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/items.py" />
+        <option value="$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/mysql.py" />
+        <option value="$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/spiders/zz.py" />
+        <option value="$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/settings.py" />
+        <option value="$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/pipelines.py" />
+        <option value="$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/spiders/my_movie.py" />
       </list>
     </option>
   </component>
@@ -162,6 +202,27 @@
               <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
               <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="my_movie_crawlspider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="my_movie_crawlspider" type="462c0819:PsiDirectoryNode" />
+              <item name="my_movie_crawlspider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="my_movie_crawlspider" type="462c0819:PsiDirectoryNode" />
+              <item name="my_movie_crawlspider" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiserLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiserLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
               <item name="yangguang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -184,11 +245,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyOwnCodes\Python\SpiserLearning\Scrapy\my_movie_crawlspider\my_movie_crawlspider" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\DouBanMusicSpider" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\DouBanMovieSpider" />
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\DB" />
-      <recent name="D:\MyOwnCodes\Python\SpiserLearning\File" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MyOwnCodes\Python\SpiserLearning\urllib3\FileUpload" />
@@ -210,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.zz (1)">
+  <component name="RunManager" selected="Python.zz (2)">
     <configuration name="multiprocess_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,27 +285,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DouBanMusicSpider/multiprocess_spider.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="multithread_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpiserLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DouBanMusicSpider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DouBanMusicSpider/multithread_spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,6 +335,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="zz (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpiserLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/spiders/zz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="zz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiserLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -318,11 +379,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.zz (2)" />
         <item itemvalue="Python.zz (1)" />
         <item itemvalue="Python.zz" />
         <item itemvalue="Python.xx" />
         <item itemvalue="Python.multiprocess_spider" />
-        <item itemvalue="Python.multithread_spider" />
       </list>
     </recent_temporary>
   </component>
@@ -336,20 +397,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605280344807</updated>
-    </task>
-    <task id="LOCAL-00047" summary="xpath的简单语法.">
-      <created>1605713500914</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1605713500914</updated>
-    </task>
-    <task id="LOCAL-00048" summary="更新文件目录说明.">
-      <created>1605714037864</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1605714037864</updated>
     </task>
     <task id="LOCAL-00049" summary="XPath——轴.">
       <created>1605788271310</created>
@@ -680,19 +727,33 @@
       <option name="project" value="LOCAL" />
       <updated>1606602854050</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Scrapy——Pipeline的open_spider和close_spider方法.">
+      <created>1606603890531</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1606603890531</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Scrapy——处理内容重复的bug（深拷贝与浅拷贝）.">
+      <created>1606641732911</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1606641732911</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991511" visible="true" weight="0.14471059" />
-      <window_info id="Structure" order="1" sideWeight="0.5008489" side_tool="true" weight="0.1242515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49782294" visible="true" weight="0.2235529" />
+      <window_info id="Structure" order="1" sideWeight="0.50217706" side_tool="true" weight="0.2235529" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968128" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499002" weight="0.31374502" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499002" visible="true" weight="0.31374502" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -770,8 +831,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="爬取豆瓣音乐Top250." />
-    <MESSAGE value="增加newline=''参数，否则生成的csv文件中两行数据见有空行." />
     <MESSAGE value="抓取豆瓣电影排行榜." />
     <MESSAGE value="多线程——单线程demo." />
     <MESSAGE value="多线程——多线程(_thread)demo." />
@@ -795,94 +854,11 @@
     <MESSAGE value="Scrapy——使用自定义Item在Pipeline中识别." />
     <MESSAGE value="Scrapy——阳光政务平台（列表页和详情页处理）." />
     <MESSAGE value="Scrapy——settings文件配置简介." />
-    <option name="LAST_COMMIT_MESSAGE" value="Scrapy——settings文件配置简介." />
+    <MESSAGE value="Scrapy——Pipeline的open_spider和close_spider方法." />
+    <MESSAGE value="Scrapy——处理内容重复的bug（深拷贝与浅拷贝）." />
+    <option name="LAST_COMMIT_MESSAGE" value="Scrapy——处理内容重复的bug（深拷贝与浅拷贝）." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/parallel/thread_fun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parallel/thread_obj.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parallel/thread_lock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parallel/thread_semaphore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parallel/thread_semaphore_lock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parallel/producer_customer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Python/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22500">
-          <caret line="757" column="8" selection-start-line="757" selection-start-column="8" selection-end-line="757" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parallel/multi_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parallel/help.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DouBanMusicSpider/music2.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
@@ -901,14 +877,6 @@
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/help.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parallel/thread_inherit.py">
@@ -1068,13 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/myspider/myspider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapy/myspider/maoyan_movie_top100.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
@@ -1093,16 +1054,6 @@
       </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="-1530" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/myspider/myspider/spiders/maoyanmoviestop100.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="29" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://D:/Python/Lib/site-packages/scrapy/http/response/__init__.py">
@@ -1162,7 +1113,7 @@
     <entry file="file://$PROJECT_DIR$/Scrapy/yangguang/yangguang/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1173,22 +1124,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/help.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="309">
+            <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/myspider/myspider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" selection-start-line="14" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/myspider/myspider/spiders/maoyanmoviestop100.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="19" selection-start-line="19" selection-end-line="26" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Lib/html/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409">
+          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/yangguang/yangguang/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" selection-start-line="23" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <element signature="e#238#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Lib/site-packages/pip/_vendor/distlib/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18630">
+          <caret line="632" column="8" selection-start-line="632" selection-start-column="8" selection-end-line="632" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Lib/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="413" column="8" selection-start-line="413" selection-start-column="8" selection-end-line="413" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/my_movie_crawlspider/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/DB/mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1140">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="-750">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/yangguang/yangguang/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="429">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/spiders/zz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="22" column="129" selection-start-line="22" selection-start-column="129" selection-end-line="22" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="3" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="40" column="79" selection-start-line="40" selection-start-column="79" selection-end-line="40" selection-end-column="79" />
           <folding>
             <element signature="e#238#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/my_movie_crawlspider/my_movie_crawlspider/spiders/my_movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
