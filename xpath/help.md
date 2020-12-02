@@ -71,3 +71,19 @@
 | preceding          | 选取文档中当前节点的开始标签之前的所有节点。             |
 | preceding-sibling  | 选取当前节点之前的所有同级节点。                         |
 | self               | 选取当前节点。                                           |
+
+# 补充
+
+## 判断某个属性是否包含或不包含指定的属性或值
+
+```python
+# 选择不包含class属性的节点
+xpath = ".//span[not(@class)]"
+# 选择不包含class和id属性的节点
+xpath = ".//span[not(@class) and not(@id)]"
+# 选择不包含class="expire"的span
+xpath = ".//span[not(contains(@class,'expire'))]"
+# 选择包含class="expire"的span
+xpath = ".//span[contains(@class,'expire')]"
+```
+
