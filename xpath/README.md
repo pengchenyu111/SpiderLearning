@@ -87,3 +87,9 @@ xpath = ".//span[not(contains(@class,'expire'))]"
 xpath = ".//span[contains(@class,'expire')]"
 ```
 
+## 根据标签间文本选取节点
+
+```python
+regx = '//div[@id="info"]//span[contains(text(),"编剧")]/following-sibling::*/a/text()'
+```
+
