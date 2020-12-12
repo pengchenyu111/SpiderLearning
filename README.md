@@ -18,8 +18,8 @@
 
 # 项目
 
+- DouBanSpider：最全的豆瓣电影Scrapy爬虫（包含8000+电影，100w+评论数据）
 - BlogSpider：抓取博客园首页的文章列表的url和title
-
 - CinemaSpider：抓取猫眼电影Top100
 - JokesSpider：抓取糗事百科文本段子
 - NovelSpider：抓取斗破小说网的文章
